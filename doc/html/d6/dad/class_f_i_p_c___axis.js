@@ -1,0 +1,68 @@
+var class_f_i_p_c___axis =
+[
+    [ "AxisAction", "d6/dad/class_f_i_p_c___axis.html#a6345cf801a28eeee745d800f04c462b6", [
+      [ "ACTION_NOTHING", "d6/dad/class_f_i_p_c___axis.html#a6345cf801a28eeee745d800f04c462b6aad24fd1e61b46ae22ab9d60c84d51086", null ],
+      [ "ACTION_STOP", "d6/dad/class_f_i_p_c___axis.html#a6345cf801a28eeee745d800f04c462b6a252d094350c2f1da88bb5b357bea6274", null ],
+      [ "ACTION_ENABLE", "d6/dad/class_f_i_p_c___axis.html#a6345cf801a28eeee745d800f04c462b6ab8a89592485afecae008b21f38f527ea", null ],
+      [ "ACTION_DISABLE", "d6/dad/class_f_i_p_c___axis.html#a6345cf801a28eeee745d800f04c462b6ae0f1bdca08def117f0898235c495ee35", null ],
+      [ "ACTION_HOMING", "d6/dad/class_f_i_p_c___axis.html#a6345cf801a28eeee745d800f04c462b6a560dd7cd4d684830a8db208c78ebd4be", null ],
+      [ "ACTION_MOVE_ABSOLUTE", "d6/dad/class_f_i_p_c___axis.html#a6345cf801a28eeee745d800f04c462b6ad3c7ce282f484022d7ac9e27dedcc785", null ],
+      [ "ACTION_MOVE_RELATIVE", "d6/dad/class_f_i_p_c___axis.html#a6345cf801a28eeee745d800f04c462b6a15e6dac6d49afaf7050629ba56f67f22", null ]
+    ] ],
+    [ "AxisStatus", "d6/dad/class_f_i_p_c___axis.html#afeafae81429ff4457dfbc30578e06db2", [
+      [ "STATUS_DISABLE", "d6/dad/class_f_i_p_c___axis.html#afeafae81429ff4457dfbc30578e06db2a8f81942ebf21b258e140eb51732ffef0", null ],
+      [ "STATUS_NO_HOME", "d6/dad/class_f_i_p_c___axis.html#afeafae81429ff4457dfbc30578e06db2ad414ba7c78578d5b9d6e5ebaf3806a73", null ],
+      [ "STATUS_HOMING", "d6/dad/class_f_i_p_c___axis.html#afeafae81429ff4457dfbc30578e06db2a7597fcafb3b6d2d08ff93e9514772903", null ],
+      [ "STATUS_READY", "d6/dad/class_f_i_p_c___axis.html#afeafae81429ff4457dfbc30578e06db2ab7bc82dc8fbed2a9c5d71253b308c6bd", null ],
+      [ "STATUS_MOVING", "d6/dad/class_f_i_p_c___axis.html#afeafae81429ff4457dfbc30578e06db2a03cc8fde36df743122f2f5dbb5457e34", null ]
+    ] ],
+    [ "ExecAccelStepper", "d6/dad/class_f_i_p_c___axis.html#ac1574a1724c3d241c21eacc5316a77fb", [
+      [ "EXEC_WAIT", "d6/dad/class_f_i_p_c___axis.html#ac1574a1724c3d241c21eacc5316a77fbabebf60992cb6111174b630ef37d0b993", null ],
+      [ "EXEC_STOP", "d6/dad/class_f_i_p_c___axis.html#ac1574a1724c3d241c21eacc5316a77fba4ad60dfc2d5dfd496017955fc6c6cfbd", null ],
+      [ "EXEC_RUN", "d6/dad/class_f_i_p_c___axis.html#ac1574a1724c3d241c21eacc5316a77fba27a0dd6b53e48569bd597ed04e008602", null ],
+      [ "EXEC_HOMING", "d6/dad/class_f_i_p_c___axis.html#ac1574a1724c3d241c21eacc5316a77fbafea99127a1da5bc4d3818a4b53121ab9", null ],
+      [ "EXEC_HOMING_STOP", "d6/dad/class_f_i_p_c___axis.html#ac1574a1724c3d241c21eacc5316a77fbaadfc4da77182a8b59b9123dcbcd181af", null ],
+      [ "EXEC_ENABLE", "d6/dad/class_f_i_p_c___axis.html#ac1574a1724c3d241c21eacc5316a77fba416ac52ae0f1d9d2843adcdeb5410f66", null ],
+      [ "EXEC_DISABLE", "d6/dad/class_f_i_p_c___axis.html#ac1574a1724c3d241c21eacc5316a77fbabe22a9c16d93a9f3e4e706a7f7d55f13", null ]
+    ] ],
+    [ "MotorStage", "d6/dad/class_f_i_p_c___axis.html#a34ccf730e248421ae09ed47f0c4d3457", [
+      [ "MOX_02_30", "d6/dad/class_f_i_p_c___axis.html#a34ccf730e248421ae09ed47f0c4d3457afca2e43180c287a3d1eadbd959649a47", null ],
+      [ "MOR_100_30", "d6/dad/class_f_i_p_c___axis.html#a34ccf730e248421ae09ed47f0c4d3457a5cf724fc1129c8348e7a7c715da61eaf", null ],
+      [ "MOG_65_10", "d6/dad/class_f_i_p_c___axis.html#a34ccf730e248421ae09ed47f0c4d3457aae3e44fcd521487bc460a1361337ccce", null ],
+      [ "MOG_65_15", "d6/dad/class_f_i_p_c___axis.html#a34ccf730e248421ae09ed47f0c4d3457a80dad1dbdcd1a56b13a793c7ff39b6ab", null ]
+    ] ],
+    [ "FIPC_Axis", "d6/dad/class_f_i_p_c___axis.html#a99cebbeae6461d5ae744993f5a074a76", null ],
+    [ "canMoveAbsolute", "d6/dad/class_f_i_p_c___axis.html#ae06288417c4d0ae1e2bccda34059f2e1", null ],
+    [ "canMoveRelative", "d6/dad/class_f_i_p_c___axis.html#a50642205eaa14cfa5b6a01336cbb88cd", null ],
+    [ "configMoveAbsolute", "d6/dad/class_f_i_p_c___axis.html#acb58e1cc83d714458d6730dcbca06da1", null ],
+    [ "configMoveRelative", "d6/dad/class_f_i_p_c___axis.html#a79d37141a196906068316ed96feb5805", null ],
+    [ "exec", "d6/dad/class_f_i_p_c___axis.html#a424ad89733af795178f6ff5e24c1a5bc", null ],
+    [ "getAccelerationTime", "d6/dad/class_f_i_p_c___axis.html#a829d578b233ce7e47740e0cc07978a7f", null ],
+    [ "getCurrentPosition", "d6/dad/class_f_i_p_c___axis.html#acab279b17a163e50384db0bcca1dd246", null ],
+    [ "getReport", "d6/dad/class_f_i_p_c___axis.html#a75fe2b13107553d823e009f8065ba369", null ],
+    [ "getSpeed", "d6/dad/class_f_i_p_c___axis.html#af21ab0e939dbfcba7b2064d7f8b7be90", null ],
+    [ "getStatus", "d6/dad/class_f_i_p_c___axis.html#a6a10465595f6e3bbf5ca61eea1f50986", null ],
+    [ "invertDirection", "d6/dad/class_f_i_p_c___axis.html#aed46a85043462e798f283c0314682e02", null ],
+    [ "isRunning", "d6/dad/class_f_i_p_c___axis.html#ab51784d66c901102659d6bb61fa3a7cd", null ],
+    [ "setAccelerationTime", "d6/dad/class_f_i_p_c___axis.html#a1fb2fa457bafc8699f7569453447f369", null ],
+    [ "setAction", "d6/dad/class_f_i_p_c___axis.html#aa4fb1c7ff239c34520e2e1a4f8ea5745", null ],
+    [ "setMotorStage", "d6/dad/class_f_i_p_c___axis.html#aa6227871165ede5989f07c1882818478", null ],
+    [ "setSpeed", "d6/dad/class_f_i_p_c___axis.html#a57fed8f8eac494b02f0a6367c0dd48fb", null ],
+    [ "_accelTime", "d6/dad/class_f_i_p_c___axis.html#ab52d6df90c5e4d1214339d009f56ea3d", null ],
+    [ "_Axis", "d6/dad/class_f_i_p_c___axis.html#ab67f8acf582d2c16b82d132c16cc35df", null ],
+    [ "_axis_status", "d6/dad/class_f_i_p_c___axis.html#a1bf826d3f4955cd628bcf154f6b90168", null ],
+    [ "_direction", "d6/dad/class_f_i_p_c___axis.html#a79152d25861e2291d2d3177d0a8b0815", null ],
+    [ "_factorToStep", "d6/dad/class_f_i_p_c___axis.html#a5be2b403ab00b263403e4111ea597172", null ],
+    [ "_Homing", "d6/dad/class_f_i_p_c___axis.html#a582f2106332ac8f6293bf2d503c5c770", null ],
+    [ "_id", "d6/dad/class_f_i_p_c___axis.html#af660e0af7a093e5e0299e31da261d2bf", null ],
+    [ "_maxPosition", "d6/dad/class_f_i_p_c___axis.html#af3d2143f91aaa6d05cc5fe3e1e8d5779", null ],
+    [ "_minPosition", "d6/dad/class_f_i_p_c___axis.html#ad5728c5c1b120ffc575f424046512379", null ],
+    [ "_newExec", "d6/dad/class_f_i_p_c___axis.html#aa2afb80dc28f1b4d44c37a731bdeca2e", null ],
+    [ "_speed", "d6/dad/class_f_i_p_c___axis.html#a848348a255b40e1462f4f26dccb887d9", null ],
+    [ "_switch_1", "d6/dad/class_f_i_p_c___axis.html#aac5d8ee5ce07f3c858d9eb0879e9fa43", null ],
+    [ "_switch_2", "d6/dad/class_f_i_p_c___axis.html#af0a33fb765072d68a0c04c113616b266", null ],
+    [ "_switch_ref", "d6/dad/class_f_i_p_c___axis.html#a5bb7b6f4b19baa96ce4a00ebe9b1cd01", null ],
+    [ "_type", "d6/dad/class_f_i_p_c___axis.html#ac38e1bbb3c791ac40dacd4d56b56f541", null ],
+    [ "_units", "d6/dad/class_f_i_p_c___axis.html#a2b6c3ee60835ac6880065599f3987baa", null ],
+    [ "_veloMax", "d6/dad/class_f_i_p_c___axis.html#a9af42e92c536aa134432745661547ac4", null ]
+];

@@ -1,0 +1,661 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.17"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>FIPC_Project: Referencia de la Clase FIPC_Homing</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">FIPC_Project
+   &#160;<span id="projectnumber">v1.0</span>
+   </div>
+   <div id="projectbrief">6-axis motorized platform controller</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.17 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "../../search",false,'Buscar');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('../../',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('d0/d66/class_f_i_p_c___homing.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">Tipos públicos</a> &#124;
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pri-attribs">Atributos privados</a> &#124;
+<a href="../../d3/dae/class_f_i_p_c___homing-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase FIPC_Homing</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Clase que implementa la búsqueda de la referencia cero.  
+ <a href="../../d0/d66/class_f_i_p_c___homing.html#details">Más...</a></p>
+
+<p><code>#include &lt;<a class="el" href="../../df/d5b/_f_i_p_c___homing_8h_source.html">FIPC_Homing.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Tipos públicos</h2></td></tr>
+<tr class="memitem:a732cde021be174fc5f2de89dc1b07825"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d66/class_f_i_p_c___homing.html#a732cde021be174fc5f2de89dc1b07825">HomingStatus</a> { <br />
+&#160;&#160;<a class="el" href="../../d0/d66/class_f_i_p_c___homing.html#a732cde021be174fc5f2de89dc1b07825ad9d1832282c323ca2fc474bd700e26dc">HOMING_NOT</a>, 
+<a class="el" href="../../d0/d66/class_f_i_p_c___homing.html#a732cde021be174fc5f2de89dc1b07825ab7b68ac9a444f8e7b96a6fed0249583b">HOMING_INIT</a>, 
+<a class="el" href="../../d0/d66/class_f_i_p_c___homing.html#a732cde021be174fc5f2de89dc1b07825ac0cc84812cd3a27be075da52d6252a40">HOMING_FAST</a>, 
+<a class="el" href="../../d0/d66/class_f_i_p_c___homing.html#a732cde021be174fc5f2de89dc1b07825a67d2968bed55c1fe3b0f818b1f5ec1ee">HOMING_SLOW</a>, 
+<br />
+&#160;&#160;<a class="el" href="../../d0/d66/class_f_i_p_c___homing.html#a732cde021be174fc5f2de89dc1b07825ac94fc2f50bb52e8c273b1f85014eae3d">HOMING_OK</a>
+<br />
+ }</td></tr>
+<tr class="memdesc:a732cde021be174fc5f2de89dc1b07825"><td class="mdescLeft">&#160;</td><td class="mdescRight">Symbolic names for home status.  <a href="../../d0/d66/class_f_i_p_c___homing.html#a732cde021be174fc5f2de89dc1b07825">Más...</a><br /></td></tr>
+<tr class="separator:a732cde021be174fc5f2de89dc1b07825"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a573c74316b9765d3e36ac31df64d7076"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d66/class_f_i_p_c___homing.html#a573c74316b9765d3e36ac31df64d7076">FIPC_Homing</a> (AccelStepper *pAxis, uint8_t iSwitchRef)</td></tr>
+<tr class="memdesc:a573c74316b9765d3e36ac31df64d7076"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="../../d0/d66/class_f_i_p_c___homing.html#a573c74316b9765d3e36ac31df64d7076">Más...</a><br /></td></tr>
+<tr class="separator:a573c74316b9765d3e36ac31df64d7076"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbb7b96e37c44870d3b0947c005adb54"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d66/class_f_i_p_c___homing.html#afbb7b96e37c44870d3b0947c005adb54">run</a> ()</td></tr>
+<tr class="memdesc:afbb7b96e37c44870d3b0947c005adb54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ejecuta la búsqueda de la referencia cero.  <a href="../../d0/d66/class_f_i_p_c___homing.html#afbb7b96e37c44870d3b0947c005adb54">Más...</a><br /></td></tr>
+<tr class="separator:afbb7b96e37c44870d3b0947c005adb54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e57d988a4959eb5ca0f12720bcfeee1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d66/class_f_i_p_c___homing.html#a9e57d988a4959eb5ca0f12720bcfeee1">stop</a> ()</td></tr>
+<tr class="memdesc:a9e57d988a4959eb5ca0f12720bcfeee1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Detiene la búsqueda de la referencia.  <a href="../../d0/d66/class_f_i_p_c___homing.html#a9e57d988a4959eb5ca0f12720bcfeee1">Más...</a><br /></td></tr>
+<tr class="separator:a9e57d988a4959eb5ca0f12720bcfeee1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4f68e80dfd3d5879eb2f11a8f5c702a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d66/class_f_i_p_c___homing.html#ab4f68e80dfd3d5879eb2f11a8f5c702a">setSpeed</a> (float speedFast, float speedSlow)</td></tr>
+<tr class="memdesc:ab4f68e80dfd3d5879eb2f11a8f5c702a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuración de las velocidades de desplazamiento.  <a href="../../d0/d66/class_f_i_p_c___homing.html#ab4f68e80dfd3d5879eb2f11a8f5c702a">Más...</a><br /></td></tr>
+<tr class="separator:ab4f68e80dfd3d5879eb2f11a8f5c702a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af81a588d04e1eeeb5b6ad1c7db17a432"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d66/class_f_i_p_c___homing.html#af81a588d04e1eeeb5b6ad1c7db17a432">setZero</a> (long iDistance)</td></tr>
+<tr class="memdesc:af81a588d04e1eeeb5b6ad1c7db17a432"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuración de la distancia virtual al cero.  <a href="../../d0/d66/class_f_i_p_c___homing.html#af81a588d04e1eeeb5b6ad1c7db17a432">Más...</a><br /></td></tr>
+<tr class="separator:af81a588d04e1eeeb5b6ad1c7db17a432"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd268c84b0abe1c8a7e27c55f5d21842"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d66/class_f_i_p_c___homing.html#afd268c84b0abe1c8a7e27c55f5d21842">setSwitch</a> (uint8_t iSwitchRef)</td></tr>
+<tr class="memdesc:afd268c84b0abe1c8a7e27c55f5d21842"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuración de entrada digital.  <a href="../../d0/d66/class_f_i_p_c___homing.html#afd268c84b0abe1c8a7e27c55f5d21842">Más...</a><br /></td></tr>
+<tr class="separator:afd268c84b0abe1c8a7e27c55f5d21842"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4e6c666a47c47edbc79aa720d95d623"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d66/class_f_i_p_c___homing.html#af4e6c666a47c47edbc79aa720d95d623">getSwitch</a> ()</td></tr>
+<tr class="memdesc:af4e6c666a47c47edbc79aa720d95d623"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retorna la entrada digital configurada.  <a href="../../d0/d66/class_f_i_p_c___homing.html#af4e6c666a47c47edbc79aa720d95d623">Más...</a><br /></td></tr>
+<tr class="separator:af4e6c666a47c47edbc79aa720d95d623"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad83289c341952779e22ee0cd564d615"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d66/class_f_i_p_c___homing.html#aad83289c341952779e22ee0cd564d615">getStatus</a> ()</td></tr>
+<tr class="memdesc:aad83289c341952779e22ee0cd564d615"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retorna el estado en que se encuentra el objeto.  <a href="../../d0/d66/class_f_i_p_c___homing.html#aad83289c341952779e22ee0cd564d615">Más...</a><br /></td></tr>
+<tr class="separator:aad83289c341952779e22ee0cd564d615"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a305ff2c04aa10ad679cb5c71cfebdc05"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d66/class_f_i_p_c___homing.html#a305ff2c04aa10ad679cb5c71cfebdc05">invertDirection</a> ()</td></tr>
+<tr class="memdesc:a305ff2c04aa10ad679cb5c71cfebdc05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invierte la dirección de la búsqueda.  <a href="../../d0/d66/class_f_i_p_c___homing.html#a305ff2c04aa10ad679cb5c71cfebdc05">Más...</a><br /></td></tr>
+<tr class="separator:a305ff2c04aa10ad679cb5c71cfebdc05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Atributos privados</h2></td></tr>
+<tr class="memitem:a17fa08b806f78a6d922e08ded51d309f"><td class="memItemLeft" align="right" valign="top">AccelStepper *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d66/class_f_i_p_c___homing.html#a17fa08b806f78a6d922e08ded51d309f">_axis</a></td></tr>
+<tr class="separator:a17fa08b806f78a6d922e08ded51d309f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a453b6e378092f6430494b96376414f16"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d66/class_f_i_p_c___homing.html#a732cde021be174fc5f2de89dc1b07825">HomingStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d66/class_f_i_p_c___homing.html#a453b6e378092f6430494b96376414f16">_status</a> = <a class="el" href="../../d0/d66/class_f_i_p_c___homing.html#a732cde021be174fc5f2de89dc1b07825ad9d1832282c323ca2fc474bd700e26dc">HOMING_NOT</a></td></tr>
+<tr class="separator:a453b6e378092f6430494b96376414f16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9b3ac92c1b9d08a695ed08cd04ab5b1"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d66/class_f_i_p_c___homing.html#ab9b3ac92c1b9d08a695ed08cd04ab5b1">_switchRef</a></td></tr>
+<tr class="separator:ab9b3ac92c1b9d08a695ed08cd04ab5b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd6cc90115ccba49c5dfebb648ac36d6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d66/class_f_i_p_c___homing.html#abd6cc90115ccba49c5dfebb648ac36d6">_direction</a> = true</td></tr>
+<tr class="separator:abd6cc90115ccba49c5dfebb648ac36d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5097c8e6fb47511eb8f45d334b535cab"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d66/class_f_i_p_c___homing.html#a5097c8e6fb47511eb8f45d334b535cab">_time_saved</a> = 0</td></tr>
+<tr class="separator:a5097c8e6fb47511eb8f45d334b535cab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0d83ba5f8c3e259ffb2df19a4b1567c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d66/class_f_i_p_c___homing.html#aa0d83ba5f8c3e259ffb2df19a4b1567c">_speedFast</a> =0</td></tr>
+<tr class="separator:aa0d83ba5f8c3e259ffb2df19a4b1567c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a214c5a6a176daebf86b22966c3f3e38f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d66/class_f_i_p_c___homing.html#a214c5a6a176daebf86b22966c3f3e38f">_speedSlow</a> =0</td></tr>
+<tr class="separator:a214c5a6a176daebf86b22966c3f3e38f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbce7b5e71f7dccc03b5f9d3b9de9c07"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d66/class_f_i_p_c___homing.html#afbce7b5e71f7dccc03b5f9d3b9de9c07">_absoluteZero</a> = 0</td></tr>
+<tr class="separator:afbce7b5e71f7dccc03b5f9d3b9de9c07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Clase que implementa la búsqueda de la referencia cero. </p>
+<p>Ejecuta la secuencia de búsqueda de la referencia: Si no detecta el switch mueve de forma rápida hasta detectarlo. Una vez encontrada la referencia, cambia el sentido de giro y se desplaza hasta que el switch combie de estado. </p>
+
+<p class="definition">Definición en la línea <a class="el" href="../../df/d5b/_f_i_p_c___homing_8h_source.html#l00033">33</a> del archivo <a class="el" href="../../df/d5b/_f_i_p_c___homing_8h_source.html">FIPC_Homing.h</a>.</p>
+</div><h2 class="groupheader">Documentación de las enumeraciones miembro de la clase</h2>
+<a id="a732cde021be174fc5f2de89dc1b07825"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a732cde021be174fc5f2de89dc1b07825">&#9670;&nbsp;</a></span>HomingStatus</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d0/d66/class_f_i_p_c___homing.html#a732cde021be174fc5f2de89dc1b07825">FIPC_Homing::HomingStatus</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Symbolic names for home status. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Valores de enumeraciones</th></tr><tr><td class="fieldname"><a id="a732cde021be174fc5f2de89dc1b07825ad9d1832282c323ca2fc474bd700e26dc"></a>HOMING_NOT&#160;</td><td class="fielddoc"><p>Sin referencia, en espera de la orden de inicio. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a732cde021be174fc5f2de89dc1b07825ab7b68ac9a444f8e7b96a6fed0249583b"></a>HOMING_INIT&#160;</td><td class="fielddoc"><p>Inicializa la secuencia. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a732cde021be174fc5f2de89dc1b07825ac0cc84812cd3a27be075da52d6252a40"></a>HOMING_FAST&#160;</td><td class="fielddoc"><p>Se desplaza rápido hasta encontrar referencia. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a732cde021be174fc5f2de89dc1b07825a67d2968bed55c1fe3b0f818b1f5ec1ee"></a>HOMING_SLOW&#160;</td><td class="fielddoc"><p>Se desplaza lento hasta definir la referencia. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a732cde021be174fc5f2de89dc1b07825ac94fc2f50bb52e8c273b1f85014eae3d"></a>HOMING_OK&#160;</td><td class="fielddoc"><p>Referencia encontrada. </p>
+</td></tr>
+</table>
+
+<p class="definition">Definición en la línea <a class="el" href="../../df/d5b/_f_i_p_c___homing_8h_source.html#l00038">38</a> del archivo <a class="el" href="../../df/d5b/_f_i_p_c___homing_8h_source.html">FIPC_Homing.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a id="a573c74316b9765d3e36ac31df64d7076"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a573c74316b9765d3e36ac31df64d7076">&#9670;&nbsp;</a></span>FIPC_Homing()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">FIPC_Homing::FIPC_Homing </td>
+          <td>(</td>
+          <td class="paramtype">AccelStepper *&#160;</td>
+          <td class="paramname"><em>pAxis</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>iSwitchRef</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Constructor. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Puntero</td><td>al driver del motor paso a paso. </td></tr>
+    <tr><td class="paramname">Entrada</td><td>digital de la referencia. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definición en la línea <a class="el" href="../../df/d00/_f_i_p_c___homing_8cpp_source.html#l00010">10</a> del archivo <a class="el" href="../../df/d00/_f_i_p_c___homing_8cpp_source.html">FIPC_Homing.cpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a id="aad83289c341952779e22ee0cd564d615"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad83289c341952779e22ee0cd564d615">&#9670;&nbsp;</a></span>getStatus()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t FIPC_Homing::getStatus </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Retorna el estado en que se encuentra el objeto. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>La variable simbólica que describe el estado del objeto. </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="../../df/d00/_f_i_p_c___homing_8cpp_source.html#l00097">97</a> del archivo <a class="el" href="../../df/d00/_f_i_p_c___homing_8cpp_source.html">FIPC_Homing.cpp</a>.</p>
+
+</div>
+</div>
+<a id="af4e6c666a47c47edbc79aa720d95d623"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4e6c666a47c47edbc79aa720d95d623">&#9670;&nbsp;</a></span>getSwitch()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t FIPC_Homing::getSwitch </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Retorna la entrada digital configurada. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>GPIO de la entrada digital. </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="../../df/d00/_f_i_p_c___homing_8cpp_source.html#l00094">94</a> del archivo <a class="el" href="../../df/d00/_f_i_p_c___homing_8cpp_source.html">FIPC_Homing.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a305ff2c04aa10ad679cb5c71cfebdc05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a305ff2c04aa10ad679cb5c71cfebdc05">&#9670;&nbsp;</a></span>invertDirection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FIPC_Homing::invertDirection </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Invierte la dirección de la búsqueda. </p>
+
+<p class="definition">Definición en la línea <a class="el" href="../../df/d00/_f_i_p_c___homing_8cpp_source.html#l00100">100</a> del archivo <a class="el" href="../../df/d00/_f_i_p_c___homing_8cpp_source.html">FIPC_Homing.cpp</a>.</p>
+
+</div>
+</div>
+<a id="afbb7b96e37c44870d3b0947c005adb54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbb7b96e37c44870d3b0947c005adb54">&#9670;&nbsp;</a></span>run()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool FIPC_Homing::run </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Ejecuta la búsqueda de la referencia cero. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>true la referencia fue encontrada. </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="../../df/d00/_f_i_p_c___homing_8cpp_source.html#l00016">16</a> del archivo <a class="el" href="../../df/d00/_f_i_p_c___homing_8cpp_source.html">FIPC_Homing.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ab4f68e80dfd3d5879eb2f11a8f5c702a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4f68e80dfd3d5879eb2f11a8f5c702a">&#9670;&nbsp;</a></span>setSpeed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FIPC_Homing::setSpeed </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>speedFast</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>speedSlow</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Configuración de las velocidades de desplazamiento. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">speedFast</td><td>Máxima velocidad de desplazamiento en pasos por segundos. </td></tr>
+    <tr><td class="paramname">speedSlow</td><td>Mínima velocidad de desplazamiento en pasos por segundos. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definición en la línea <a class="el" href="../../df/d00/_f_i_p_c___homing_8cpp_source.html#l00077">77</a> del archivo <a class="el" href="../../df/d00/_f_i_p_c___homing_8cpp_source.html">FIPC_Homing.cpp</a>.</p>
+
+</div>
+</div>
+<a id="afd268c84b0abe1c8a7e27c55f5d21842"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd268c84b0abe1c8a7e27c55f5d21842">&#9670;&nbsp;</a></span>setSwitch()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FIPC_Homing::setSwitch </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>iSwitchRef</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Configuración de entrada digital. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">iSwitchRef</td><td>GPIO de la entrada digital. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definición en la línea <a class="el" href="../../df/d00/_f_i_p_c___homing_8cpp_source.html#l00091">91</a> del archivo <a class="el" href="../../df/d00/_f_i_p_c___homing_8cpp_source.html">FIPC_Homing.cpp</a>.</p>
+
+</div>
+</div>
+<a id="af81a588d04e1eeeb5b6ad1c7db17a432"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af81a588d04e1eeeb5b6ad1c7db17a432">&#9670;&nbsp;</a></span>setZero()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FIPC_Homing::setZero </td>
+          <td>(</td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>iDistance</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Configuración de la distancia virtual al cero. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">iDistance</td><td>Distancia al cero en unidades de pasos. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definición en la línea <a class="el" href="../../df/d00/_f_i_p_c___homing_8cpp_source.html#l00088">88</a> del archivo <a class="el" href="../../df/d00/_f_i_p_c___homing_8cpp_source.html">FIPC_Homing.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a9e57d988a4959eb5ca0f12720bcfeee1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e57d988a4959eb5ca0f12720bcfeee1">&#9670;&nbsp;</a></span>stop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FIPC_Homing::stop </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Detiene la búsqueda de la referencia. </p>
+
+<p class="definition">Definición en la línea <a class="el" href="../../df/d00/_f_i_p_c___homing_8cpp_source.html#l00068">68</a> del archivo <a class="el" href="../../df/d00/_f_i_p_c___homing_8cpp_source.html">FIPC_Homing.cpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentación de los datos miembro</h2>
+<a id="afbce7b5e71f7dccc03b5f9d3b9de9c07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbce7b5e71f7dccc03b5f9d3b9de9c07">&#9670;&nbsp;</a></span>_absoluteZero</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">long FIPC_Homing::_absoluteZero = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Distancia virtual al cero en pasos. </p>
+
+<p class="definition">Definición en la línea <a class="el" href="../../df/d5b/_f_i_p_c___homing_8h_source.html#l00110">110</a> del archivo <a class="el" href="../../df/d5b/_f_i_p_c___homing_8h_source.html">FIPC_Homing.h</a>.</p>
+
+</div>
+</div>
+<a id="a17fa08b806f78a6d922e08ded51d309f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17fa08b806f78a6d922e08ded51d309f">&#9670;&nbsp;</a></span>_axis</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">AccelStepper* FIPC_Homing::_axis</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Puntero a driver del motor paso a paso. </p>
+
+<p class="definition">Definición en la línea <a class="el" href="../../df/d5b/_f_i_p_c___homing_8h_source.html#l00096">96</a> del archivo <a class="el" href="../../df/d5b/_f_i_p_c___homing_8h_source.html">FIPC_Homing.h</a>.</p>
+
+</div>
+</div>
+<a id="abd6cc90115ccba49c5dfebb648ac36d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd6cc90115ccba49c5dfebb648ac36d6">&#9670;&nbsp;</a></span>_direction</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool FIPC_Homing::_direction = true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Dirección de búsqueda de referencia. </p>
+
+<p class="definition">Definición en la línea <a class="el" href="../../df/d5b/_f_i_p_c___homing_8h_source.html#l00102">102</a> del archivo <a class="el" href="../../df/d5b/_f_i_p_c___homing_8h_source.html">FIPC_Homing.h</a>.</p>
+
+</div>
+</div>
+<a id="aa0d83ba5f8c3e259ffb2df19a4b1567c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0d83ba5f8c3e259ffb2df19a4b1567c">&#9670;&nbsp;</a></span>_speedFast</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float FIPC_Homing::_speedFast =0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Almacena la velocidad máxima en pasos/s. </p>
+
+<p class="definition">Definición en la línea <a class="el" href="../../df/d5b/_f_i_p_c___homing_8h_source.html#l00106">106</a> del archivo <a class="el" href="../../df/d5b/_f_i_p_c___homing_8h_source.html">FIPC_Homing.h</a>.</p>
+
+</div>
+</div>
+<a id="a214c5a6a176daebf86b22966c3f3e38f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a214c5a6a176daebf86b22966c3f3e38f">&#9670;&nbsp;</a></span>_speedSlow</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float FIPC_Homing::_speedSlow =0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Almacena la velocidad mínima en pasos/s. </p>
+
+<p class="definition">Definición en la línea <a class="el" href="../../df/d5b/_f_i_p_c___homing_8h_source.html#l00108">108</a> del archivo <a class="el" href="../../df/d5b/_f_i_p_c___homing_8h_source.html">FIPC_Homing.h</a>.</p>
+
+</div>
+</div>
+<a id="a453b6e378092f6430494b96376414f16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a453b6e378092f6430494b96376414f16">&#9670;&nbsp;</a></span>_status</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/d66/class_f_i_p_c___homing.html#a732cde021be174fc5f2de89dc1b07825">HomingStatus</a> FIPC_Homing::_status = <a class="el" href="../../d0/d66/class_f_i_p_c___homing.html#a732cde021be174fc5f2de89dc1b07825ad9d1832282c323ca2fc474bd700e26dc">HOMING_NOT</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Almacena el estado del objeto. </p>
+
+<p class="definition">Definición en la línea <a class="el" href="../../df/d5b/_f_i_p_c___homing_8h_source.html#l00098">98</a> del archivo <a class="el" href="../../df/d5b/_f_i_p_c___homing_8h_source.html">FIPC_Homing.h</a>.</p>
+
+</div>
+</div>
+<a id="ab9b3ac92c1b9d08a695ed08cd04ab5b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9b3ac92c1b9d08a695ed08cd04ab5b1">&#9670;&nbsp;</a></span>_switchRef</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t FIPC_Homing::_switchRef</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Almacena la entrada digital configurada. </p>
+
+<p class="definition">Definición en la línea <a class="el" href="../../df/d5b/_f_i_p_c___homing_8h_source.html#l00100">100</a> del archivo <a class="el" href="../../df/d5b/_f_i_p_c___homing_8h_source.html">FIPC_Homing.h</a>.</p>
+
+</div>
+</div>
+<a id="a5097c8e6fb47511eb8f45d334b535cab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5097c8e6fb47511eb8f45d334b535cab">&#9670;&nbsp;</a></span>_time_saved</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">long FIPC_Homing::_time_saved = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Variable de tiempo en microsegundo para la implementación del antirebote. </p>
+
+<p class="definition">Definición en la línea <a class="el" href="../../df/d5b/_f_i_p_c___homing_8h_source.html#l00104">104</a> del archivo <a class="el" href="../../df/d5b/_f_i_p_c___homing_8h_source.html">FIPC_Homing.h</a>.</p>
+
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir de los siguientes ficheros:<ul>
+<li>/home/rrpeyton/Escritorio/driver_plataforma/software/Carpeta nueva/src/<a class="el" href="../../df/d5b/_f_i_p_c___homing_8h_source.html">FIPC_Homing.h</a></li>
+<li>/home/rrpeyton/Escritorio/driver_plataforma/software/Carpeta nueva/src/<a class="el" href="../../df/d00/_f_i_p_c___homing_8cpp_source.html">FIPC_Homing.cpp</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../d0/d66/class_f_i_p_c___homing.html">FIPC_Homing</a></li>
+    <li class="footer">Generado por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
+  </ul>
+</div>
+</body>
+</html>

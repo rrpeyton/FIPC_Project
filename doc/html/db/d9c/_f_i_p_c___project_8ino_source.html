@@ -1,0 +1,205 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.17"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>FIPC_Project: Fichero Fuente /home/rrpeyton/Escritorio/driver_plataforma/software/Carpeta nueva/src/FIPC_Project.ino</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">FIPC_Project
+   &#160;<span id="projectnumber">v1.0</span>
+   </div>
+   <div id="projectbrief">6-axis motorized platform controller</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.17 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "../../search",false,'Buscar');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('../../',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('db/d9c/_f_i_p_c___project_8ino_source.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">FIPC_Project.ino</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="../../db/d9c/_f_i_p_c___project_8ino.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../db/d4e/_f_i_p_c___a_p_i_8h.html">FIPC_API.h</a>&quot;</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
+<div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="../../db/d9c/_f_i_p_c___project_8ino.html#adb477054256a2b98702cd31255ce239e">   46</a></span>&#160;<span class="preprocessor">#define EXEC_TIME_OUT 80 // exec time-out in microseconds</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="../../db/d9c/_f_i_p_c___project_8ino.html#acda9183296a6c1669bfa5011b69eb567">   47</a></span>&#160;<span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <a class="code" href="../../db/d9c/_f_i_p_c___project_8ino.html#a83905f63e0c7e5c9413f9970a9c50829">dt_exec</a>,<a class="code" href="../../db/d9c/_f_i_p_c___project_8ino.html#acda9183296a6c1669bfa5011b69eb567">t1_exec</a>,<a class="code" href="../../db/d9c/_f_i_p_c___project_8ino.html#af8d7ad9ef776f4fc1196c31af8d97e45">flag_time_out</a>=0; <span class="comment">// global variable time analysis</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
+<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="../../db/d9c/_f_i_p_c___project_8ino.html#abdfc320a8c2c517f1b8cf06ce15fe3d2">   49</a></span>&#160;<a class="code" href="../../dd/db4/class_f_i_p_c___a_p_i.html">FIPC_API</a> <a class="code" href="../../db/d9c/_f_i_p_c___project_8ino.html#abdfc320a8c2c517f1b8cf06ce15fe3d2">axis_api</a>;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../db/d9c/_f_i_p_c___project_8ino.html#a4355dca545d0d82e0ad693872bdacb03">TaskReadAction</a>   ( <span class="keywordtype">void</span> *pvParameters ); <span class="comment">// execute in core 0</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../db/d9c/_f_i_p_c___project_8ino.html#ad5ae78c64f0586b9b8d42005b84b2fb5">TaskReportStatus</a> ( <span class="keywordtype">void</span> *pvParameters ); <span class="comment">// execute in core 0</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../db/d9c/_f_i_p_c___project_8ino.html#abc515553136175e9e33de6b36e7307d0">TaskExec</a>         ( <span class="keywordtype">void</span> *pvParameters ); <span class="comment">// execute in core 1</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="../../db/d9c/_f_i_p_c___project_8ino.html#a642a4265a30ef969b172df7c201b94b0">   54</a></span>&#160;SemaphoreHandle_t <a class="code" href="../../db/d9c/_f_i_p_c___project_8ino.html#a642a4265a30ef969b172df7c201b94b0">xSerialSemaphore</a>;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
+<div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="../../db/d9c/_f_i_p_c___project_8ino.html#a4fc01d736fe50cf5b977f755b675f11d">   56</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../db/d9c/_f_i_p_c___project_8ino.html#a4fc01d736fe50cf5b977f755b675f11d">setup</a>() {</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  Serial.begin(115200);</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;  <span class="comment">// config FreeRTOS</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;  <span class="keywordflow">if</span> ( <a class="code" href="../../db/d9c/_f_i_p_c___project_8ino.html#a642a4265a30ef969b172df7c201b94b0">xSerialSemaphore</a>==NULL ) {</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <a class="code" href="../../db/d9c/_f_i_p_c___project_8ino.html#a642a4265a30ef969b172df7c201b94b0">xSerialSemaphore</a> = xSemaphoreCreateMutex();</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keywordflow">if</span> ( <a class="code" href="../../db/d9c/_f_i_p_c___project_8ino.html#a642a4265a30ef969b172df7c201b94b0">xSerialSemaphore</a>!=NULL ) xSemaphoreGive( <a class="code" href="../../db/d9c/_f_i_p_c___project_8ino.html#a642a4265a30ef969b172df7c201b94b0">xSerialSemaphore</a> );</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;  }</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;  xTaskCreatePinnedToCore(<a class="code" href="../../db/d9c/_f_i_p_c___project_8ino.html#a4355dca545d0d82e0ad693872bdacb03">TaskReadAction</a>,<span class="stringliteral">&quot;TaskReadAction&quot;</span>,3*1024,NULL,2,NULL,0);</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  xTaskCreatePinnedToCore(<a class="code" href="../../db/d9c/_f_i_p_c___project_8ino.html#ad5ae78c64f0586b9b8d42005b84b2fb5">TaskReportStatus</a>,<span class="stringliteral">&quot;TaskReportStatus&quot;</span>,4*1024,NULL,2,NULL,0);    </div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;  xTaskCreatePinnedToCore(<a class="code" href="../../db/d9c/_f_i_p_c___project_8ino.html#abc515553136175e9e33de6b36e7307d0">TaskExec</a>,<span class="stringliteral">&quot;TaskExec&quot;</span>,2*1024,NULL,configMAX_PRIORITIES-1,NULL,1);</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;}</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="comment">/****************** CORE 0 ******************/</span></div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="comment">/********************************************/</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="comment">// loop task delete</span></div>
+<div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="../../db/d9c/_f_i_p_c___project_8ino.html#afe461d27b9c48d5921c00d521181f12f">   72</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../db/d9c/_f_i_p_c___project_8ino.html#afe461d27b9c48d5921c00d521181f12f">loop</a>() { vTaskDelete(NULL); }</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160; </div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="comment">// Real time execute task</span></div>
+<div class="line"><a name="l00075"></a><span class="lineno"><a class="line" href="../../db/d9c/_f_i_p_c___project_8ino.html#abc515553136175e9e33de6b36e7307d0">   75</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../db/d9c/_f_i_p_c___project_8ino.html#abc515553136175e9e33de6b36e7307d0">TaskExec</a>(<span class="keywordtype">void</span> *pvParameters) {</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;  (void) pvParameters;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;  <a class="code" href="../../db/d9c/_f_i_p_c___project_8ino.html#acda9183296a6c1669bfa5011b69eb567">t1_exec</a> = micros();</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;  <span class="keywordflow">for</span> (;;) { </div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    </div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <a class="code" href="../../db/d9c/_f_i_p_c___project_8ino.html#abdfc320a8c2c517f1b8cf06ce15fe3d2">axis_api</a>.<a class="code" href="../../dd/db4/class_f_i_p_c___a_p_i.html#adbe5d9e4114b3df092e354d4e140beed">exec</a>(pvParameters);</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160; </div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="comment">// check execution time out</span></div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keywordflow">if</span>( (<a class="code" href="../../db/d9c/_f_i_p_c___project_8ino.html#a83905f63e0c7e5c9413f9970a9c50829">dt_exec</a>=micros()-<a class="code" href="../../db/d9c/_f_i_p_c___project_8ino.html#acda9183296a6c1669bfa5011b69eb567">t1_exec</a>)&gt;<a class="code" href="../../db/d9c/_f_i_p_c___project_8ino.html#adb477054256a2b98702cd31255ce239e">EXEC_TIME_OUT</a> ) <a class="code" href="../../db/d9c/_f_i_p_c___project_8ino.html#af8d7ad9ef776f4fc1196c31af8d97e45">flag_time_out</a> = <a class="code" href="../../db/d9c/_f_i_p_c___project_8ino.html#a83905f63e0c7e5c9413f9970a9c50829">dt_exec</a>;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <a class="code" href="../../db/d9c/_f_i_p_c___project_8ino.html#acda9183296a6c1669bfa5011b69eb567">t1_exec</a> = micros();</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;  }</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;}</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="comment">/********************************************/</span></div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="comment">/****************** CORE 0 ******************/</span></div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160; </div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160; </div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="comment">/****************** CORE 1 ******************/</span></div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="comment">/********************************************/</span></div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="comment">// Tarea de reporte de estado</span></div>
+<div class="line"><a name="l00094"></a><span class="lineno"><a class="line" href="../../db/d9c/_f_i_p_c___project_8ino.html#ad5ae78c64f0586b9b8d42005b84b2fb5">   94</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../db/d9c/_f_i_p_c___project_8ino.html#ad5ae78c64f0586b9b8d42005b84b2fb5">TaskReportStatus</a>(<span class="keywordtype">void</span> *pvParameters) {</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;  (void) pvParameters;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;  <span class="keywordflow">for</span> (;;) {</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <span class="keywordflow">if</span> ( xSemaphoreTake( <a class="code" href="../../db/d9c/_f_i_p_c___project_8ino.html#a642a4265a30ef969b172df7c201b94b0">xSerialSemaphore</a>, ( TickType_t ) 5 ) == pdTRUE ){</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;      </div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;      Serial.println(<a class="code" href="../../db/d9c/_f_i_p_c___project_8ino.html#abdfc320a8c2c517f1b8cf06ce15fe3d2">axis_api</a>.<a class="code" href="../../dd/db4/class_f_i_p_c___a_p_i.html#a1fec2c7dcd1b7ee4a9bba4e9e4540af2">request</a>(<span class="stringliteral">&quot;?RA:&quot;</span>));</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;      </div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;      Serial.println(<span class="stringliteral">&quot;**** &quot;</span>+String(<a class="code" href="../../db/d9c/_f_i_p_c___project_8ino.html#a83905f63e0c7e5c9413f9970a9c50829">dt_exec</a>)+<span class="stringliteral">&quot;us ****&quot;</span>);</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;      <span class="keywordflow">if</span>(<a class="code" href="../../db/d9c/_f_i_p_c___project_8ino.html#af8d7ad9ef776f4fc1196c31af8d97e45">flag_time_out</a>) {</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        Serial.println(<span class="stringliteral">&quot;##### Time out &quot;</span>+String(<a class="code" href="../../db/d9c/_f_i_p_c___project_8ino.html#af8d7ad9ef776f4fc1196c31af8d97e45">flag_time_out</a>)+<span class="stringliteral">&quot;us&quot;</span>);</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        <a class="code" href="../../db/d9c/_f_i_p_c___project_8ino.html#af8d7ad9ef776f4fc1196c31af8d97e45">flag_time_out</a> = 0;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;      }</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;      Serial.println(<span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;      </div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;      xSemaphoreGive( <a class="code" href="../../db/d9c/_f_i_p_c___project_8ino.html#a642a4265a30ef969b172df7c201b94b0">xSerialSemaphore</a> );</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    }</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    vTaskDelay(2000);  <span class="comment">// one tick delay (100ms) in between reads for stability</span></div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;  }</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;}</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160; </div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;<span class="comment">// Tarea de lectura de comandos</span></div>
+<div class="line"><a name="l00115"></a><span class="lineno"><a class="line" href="../../db/d9c/_f_i_p_c___project_8ino.html#a4355dca545d0d82e0ad693872bdacb03">  115</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../db/d9c/_f_i_p_c___project_8ino.html#a4355dca545d0d82e0ad693872bdacb03">TaskReadAction</a>(<span class="keywordtype">void</span> *pvParameters) {</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;  (void) pvParameters;</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;  String str_out = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;  <span class="keywordflow">for</span> (;;) {</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <span class="keywordflow">if</span> ( xSemaphoreTake( <a class="code" href="../../db/d9c/_f_i_p_c___project_8ino.html#a642a4265a30ef969b172df7c201b94b0">xSerialSemaphore</a>, ( TickType_t ) 5 ) == pdTRUE ){</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;      <span class="keywordflow">if</span> (Serial.available() &gt; 0) {</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        str_out = <a class="code" href="../../db/d9c/_f_i_p_c___project_8ino.html#abdfc320a8c2c517f1b8cf06ce15fe3d2">axis_api</a>.<a class="code" href="../../dd/db4/class_f_i_p_c___a_p_i.html#a1fec2c7dcd1b7ee4a9bba4e9e4540af2">request</a>( Serial.readStringUntil(<span class="charliteral">&#39;\n&#39;</span>) );</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        <span class="keywordflow">if</span>( str_out!=<span class="stringliteral">&quot;&quot;</span> ) Serial.print(str_out);</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;      }</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;      xSemaphoreGive( <a class="code" href="../../db/d9c/_f_i_p_c___project_8ino.html#a642a4265a30ef969b172df7c201b94b0">xSerialSemaphore</a> );</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    }    </div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    vTaskDelay(100);</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;  }</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;}</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;<span class="comment">/********************************************/</span></div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;<span class="comment">/****************** CORE 1 ******************/</span></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<div class="ttc" id="a_f_i_p_c___project_8ino_html_a4fc01d736fe50cf5b977f755b675f11d"><div class="ttname"><a href="../../db/d9c/_f_i_p_c___project_8ino.html#a4fc01d736fe50cf5b977f755b675f11d">setup</a></div><div class="ttdeci">void setup()</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d9c/_f_i_p_c___project_8ino_source.html#l00056">FIPC_Project.ino:56</a></div></div>
+<div class="ttc" id="a_f_i_p_c___project_8ino_html_a83905f63e0c7e5c9413f9970a9c50829"><div class="ttname"><a href="../../db/d9c/_f_i_p_c___project_8ino.html#a83905f63e0c7e5c9413f9970a9c50829">dt_exec</a></div><div class="ttdeci">unsigned long dt_exec</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d9c/_f_i_p_c___project_8ino_source.html#l00047">FIPC_Project.ino:47</a></div></div>
+<div class="ttc" id="a_f_i_p_c___project_8ino_html_afe461d27b9c48d5921c00d521181f12f"><div class="ttname"><a href="../../db/d9c/_f_i_p_c___project_8ino.html#afe461d27b9c48d5921c00d521181f12f">loop</a></div><div class="ttdeci">void loop()</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d9c/_f_i_p_c___project_8ino_source.html#l00072">FIPC_Project.ino:72</a></div></div>
+<div class="ttc" id="a_f_i_p_c___project_8ino_html_acda9183296a6c1669bfa5011b69eb567"><div class="ttname"><a href="../../db/d9c/_f_i_p_c___project_8ino.html#acda9183296a6c1669bfa5011b69eb567">t1_exec</a></div><div class="ttdeci">unsigned long t1_exec</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d9c/_f_i_p_c___project_8ino_source.html#l00047">FIPC_Project.ino:47</a></div></div>
+<div class="ttc" id="aclass_f_i_p_c___a_p_i_html_adbe5d9e4114b3df092e354d4e140beed"><div class="ttname"><a href="../../dd/db4/class_f_i_p_c___a_p_i.html#adbe5d9e4114b3df092e354d4e140beed">FIPC_API::exec</a></div><div class="ttdeci">void exec(void *pvParameters)</div><div class="ttdoc">Proceso a ejecutar en tiempo real.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d84/_f_i_p_c___a_p_i_8cpp_source.html#l00032">FIPC_API.cpp:32</a></div></div>
+<div class="ttc" id="a_f_i_p_c___project_8ino_html_a4355dca545d0d82e0ad693872bdacb03"><div class="ttname"><a href="../../db/d9c/_f_i_p_c___project_8ino.html#a4355dca545d0d82e0ad693872bdacb03">TaskReadAction</a></div><div class="ttdeci">void TaskReadAction(void *pvParameters)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d9c/_f_i_p_c___project_8ino_source.html#l00115">FIPC_Project.ino:115</a></div></div>
+<div class="ttc" id="aclass_f_i_p_c___a_p_i_html"><div class="ttname"><a href="../../dd/db4/class_f_i_p_c___a_p_i.html">FIPC_API</a></div><div class="ttdoc">Clase que implementa una interfaz de aplicación para controlar 6 ejes.</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d4e/_f_i_p_c___a_p_i_8h_source.html#l00081">FIPC_API.h:81</a></div></div>
+<div class="ttc" id="a_f_i_p_c___a_p_i_8h_html"><div class="ttname"><a href="../../db/d4e/_f_i_p_c___a_p_i_8h.html">FIPC_API.h</a></div><div class="ttdoc">Interfaz de aplicación del controlador.</div></div>
+<div class="ttc" id="a_f_i_p_c___project_8ino_html_ad5ae78c64f0586b9b8d42005b84b2fb5"><div class="ttname"><a href="../../db/d9c/_f_i_p_c___project_8ino.html#ad5ae78c64f0586b9b8d42005b84b2fb5">TaskReportStatus</a></div><div class="ttdeci">void TaskReportStatus(void *pvParameters)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d9c/_f_i_p_c___project_8ino_source.html#l00094">FIPC_Project.ino:94</a></div></div>
+<div class="ttc" id="a_f_i_p_c___project_8ino_html_abdfc320a8c2c517f1b8cf06ce15fe3d2"><div class="ttname"><a href="../../db/d9c/_f_i_p_c___project_8ino.html#abdfc320a8c2c517f1b8cf06ce15fe3d2">axis_api</a></div><div class="ttdeci">FIPC_API axis_api</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d9c/_f_i_p_c___project_8ino_source.html#l00049">FIPC_Project.ino:49</a></div></div>
+<div class="ttc" id="a_f_i_p_c___project_8ino_html_a642a4265a30ef969b172df7c201b94b0"><div class="ttname"><a href="../../db/d9c/_f_i_p_c___project_8ino.html#a642a4265a30ef969b172df7c201b94b0">xSerialSemaphore</a></div><div class="ttdeci">SemaphoreHandle_t xSerialSemaphore</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d9c/_f_i_p_c___project_8ino_source.html#l00054">FIPC_Project.ino:54</a></div></div>
+<div class="ttc" id="a_f_i_p_c___project_8ino_html_abc515553136175e9e33de6b36e7307d0"><div class="ttname"><a href="../../db/d9c/_f_i_p_c___project_8ino.html#abc515553136175e9e33de6b36e7307d0">TaskExec</a></div><div class="ttdeci">void TaskExec(void *pvParameters)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d9c/_f_i_p_c___project_8ino_source.html#l00075">FIPC_Project.ino:75</a></div></div>
+<div class="ttc" id="a_f_i_p_c___project_8ino_html_af8d7ad9ef776f4fc1196c31af8d97e45"><div class="ttname"><a href="../../db/d9c/_f_i_p_c___project_8ino.html#af8d7ad9ef776f4fc1196c31af8d97e45">flag_time_out</a></div><div class="ttdeci">unsigned long flag_time_out</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d9c/_f_i_p_c___project_8ino_source.html#l00047">FIPC_Project.ino:47</a></div></div>
+<div class="ttc" id="a_f_i_p_c___project_8ino_html_adb477054256a2b98702cd31255ce239e"><div class="ttname"><a href="../../db/d9c/_f_i_p_c___project_8ino.html#adb477054256a2b98702cd31255ce239e">EXEC_TIME_OUT</a></div><div class="ttdeci">#define EXEC_TIME_OUT</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d9c/_f_i_p_c___project_8ino_source.html#l00046">FIPC_Project.ino:46</a></div></div>
+<div class="ttc" id="aclass_f_i_p_c___a_p_i_html_a1fec2c7dcd1b7ee4a9bba4e9e4540af2"><div class="ttname"><a href="../../dd/db4/class_f_i_p_c___a_p_i.html#a1fec2c7dcd1b7ee4a9bba4e9e4540af2">FIPC_API::request</a></div><div class="ttdeci">String request(String myString)</div><div class="ttdoc">Método público de interfaz con la aplicación.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d84/_f_i_p_c___a_p_i_8cpp_source.html#l00042">FIPC_API.cpp:42</a></div></div>
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../db/d9c/_f_i_p_c___project_8ino.html">FIPC_Project.ino</a></li>
+    <li class="footer">Generado por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
+  </ul>
+</div>
+</body>
+</html>
