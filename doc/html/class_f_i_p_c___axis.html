@@ -1,0 +1,1393 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.17"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>FIPC_Project: Referencia de la Clase FIPC_Axis</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">FIPC_Project
+   &#160;<span id="projectnumber">v1.0</span>
+   </div>
+   <div id="projectbrief">6-axis motorized platform controller</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.17 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('class_f_i_p_c___axis.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">Tipos públicos</a> &#124;
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pri-types">Tipos privados</a> &#124;
+<a href="#pri-methods">Métodos privados</a> &#124;
+<a href="#pri-attribs">Atributos privados</a> &#124;
+<a href="class_f_i_p_c___axis-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase FIPC_Axis</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Clase que implementa el control de un eje.  
+ <a href="class_f_i_p_c___axis.html#details">Más...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_f_i_p_c___axis_8h_source.html">FIPC_Axis.h</a>&gt;</code></p>
+<div class="dynheader">
+Diagrama de colaboración para FIPC_Axis:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_f_i_p_c___axis__coll__graph.png" border="0" usemap="#_f_i_p_c___axis_coll__map" alt="Collaboration graph"/></div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">significado de colores y flechas</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Tipos públicos</h2></td></tr>
+<tr class="memitem:a6345cf801a28eeee745d800f04c462b6"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_i_p_c___axis.html#a6345cf801a28eeee745d800f04c462b6">AxisAction</a> { <br />
+&#160;&#160;<a class="el" href="class_f_i_p_c___axis.html#a6345cf801a28eeee745d800f04c462b6aad24fd1e61b46ae22ab9d60c84d51086">ACTION_NOTHING</a>, 
+<a class="el" href="class_f_i_p_c___axis.html#a6345cf801a28eeee745d800f04c462b6a252d094350c2f1da88bb5b357bea6274">ACTION_STOP</a>, 
+<a class="el" href="class_f_i_p_c___axis.html#a6345cf801a28eeee745d800f04c462b6ab8a89592485afecae008b21f38f527ea">ACTION_ENABLE</a>, 
+<a class="el" href="class_f_i_p_c___axis.html#a6345cf801a28eeee745d800f04c462b6ae0f1bdca08def117f0898235c495ee35">ACTION_DISABLE</a>, 
+<br />
+&#160;&#160;<a class="el" href="class_f_i_p_c___axis.html#a6345cf801a28eeee745d800f04c462b6a560dd7cd4d684830a8db208c78ebd4be">ACTION_HOMING</a>, 
+<a class="el" href="class_f_i_p_c___axis.html#a6345cf801a28eeee745d800f04c462b6ad3c7ce282f484022d7ac9e27dedcc785">ACTION_MOVE_ABSOLUTE</a>, 
+<a class="el" href="class_f_i_p_c___axis.html#a6345cf801a28eeee745d800f04c462b6a15e6dac6d49afaf7050629ba56f67f22">ACTION_MOVE_RELATIVE</a>
+<br />
+ }</td></tr>
+<tr class="memdesc:a6345cf801a28eeee745d800f04c462b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Definicion de variable simbólica de acciones.  <a href="class_f_i_p_c___axis.html#a6345cf801a28eeee745d800f04c462b6">Más...</a><br /></td></tr>
+<tr class="separator:a6345cf801a28eeee745d800f04c462b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34ccf730e248421ae09ed47f0c4d3457"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_i_p_c___axis.html#a34ccf730e248421ae09ed47f0c4d3457">MotorStage</a> { <a class="el" href="class_f_i_p_c___axis.html#a34ccf730e248421ae09ed47f0c4d3457afca2e43180c287a3d1eadbd959649a47">MOX_02_30</a>, 
+<a class="el" href="class_f_i_p_c___axis.html#a34ccf730e248421ae09ed47f0c4d3457a5cf724fc1129c8348e7a7c715da61eaf">MOR_100_30</a>, 
+<a class="el" href="class_f_i_p_c___axis.html#a34ccf730e248421ae09ed47f0c4d3457aae3e44fcd521487bc460a1361337ccce">MOG_65_10</a>, 
+<a class="el" href="class_f_i_p_c___axis.html#a34ccf730e248421ae09ed47f0c4d3457a80dad1dbdcd1a56b13a793c7ff39b6ab">MOG_65_15</a>
+ }</td></tr>
+<tr class="memdesc:a34ccf730e248421ae09ed47f0c4d3457"><td class="mdescLeft">&#160;</td><td class="mdescRight">Definicion de variable simbólica de tipos de ejes.  <a href="class_f_i_p_c___axis.html#a34ccf730e248421ae09ed47f0c4d3457">Más...</a><br /></td></tr>
+<tr class="separator:a34ccf730e248421ae09ed47f0c4d3457"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a99cebbeae6461d5ae744993f5a074a76"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_i_p_c___axis.html#a99cebbeae6461d5ae744993f5a074a76">FIPC_Axis</a> (uint8_t set_id, uint8_t pinSTEP, uint8_t pinDIR, uint8_t pinEN, uint8_t switch_1, uint8_t switch_2, uint8_t switch_ref)</td></tr>
+<tr class="memdesc:a99cebbeae6461d5ae744993f5a074a76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="class_f_i_p_c___axis.html#a99cebbeae6461d5ae744993f5a074a76">Más...</a><br /></td></tr>
+<tr class="separator:a99cebbeae6461d5ae744993f5a074a76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6227871165ede5989f07c1882818478"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_i_p_c___axis.html#aa6227871165ede5989f07c1882818478">setMotorStage</a> (<a class="el" href="class_f_i_p_c___axis.html#a34ccf730e248421ae09ed47f0c4d3457">MotorStage</a> type)</td></tr>
+<tr class="memdesc:aa6227871165ede5989f07c1882818478"><td class="mdescLeft">&#160;</td><td class="mdescRight">Establece el tipo de eje.  <a href="class_f_i_p_c___axis.html#aa6227871165ede5989f07c1882818478">Más...</a><br /></td></tr>
+<tr class="separator:aa6227871165ede5989f07c1882818478"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50642205eaa14cfa5b6a01336cbb88cd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_i_p_c___axis.html#a50642205eaa14cfa5b6a01336cbb88cd">canMoveRelative</a> (float iRelative=0.0)</td></tr>
+<tr class="memdesc:a50642205eaa14cfa5b6a01336cbb88cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verifica si puede ejecutar un desplazamiento en coordenadas relativas.  <a href="class_f_i_p_c___axis.html#a50642205eaa14cfa5b6a01336cbb88cd">Más...</a><br /></td></tr>
+<tr class="separator:a50642205eaa14cfa5b6a01336cbb88cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae06288417c4d0ae1e2bccda34059f2e1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_i_p_c___axis.html#ae06288417c4d0ae1e2bccda34059f2e1">canMoveAbsolute</a> (float iAbsolute=0.0)</td></tr>
+<tr class="memdesc:ae06288417c4d0ae1e2bccda34059f2e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verifica si puede ejecutar un desplazamiento en coordenadas absolutas.  <a href="class_f_i_p_c___axis.html#ae06288417c4d0ae1e2bccda34059f2e1">Más...</a><br /></td></tr>
+<tr class="separator:ae06288417c4d0ae1e2bccda34059f2e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57fed8f8eac494b02f0a6367c0dd48fb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_i_p_c___axis.html#a57fed8f8eac494b02f0a6367c0dd48fb">setSpeed</a> (float iSpeed)</td></tr>
+<tr class="memdesc:a57fed8f8eac494b02f0a6367c0dd48fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configura la velocidad de desplazamiento.  <a href="class_f_i_p_c___axis.html#a57fed8f8eac494b02f0a6367c0dd48fb">Más...</a><br /></td></tr>
+<tr class="separator:a57fed8f8eac494b02f0a6367c0dd48fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fb2fa457bafc8699f7569453447f369"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_i_p_c___axis.html#a1fb2fa457bafc8699f7569453447f369">setAccelerationTime</a> (float iAccelTime)</td></tr>
+<tr class="memdesc:a1fb2fa457bafc8699f7569453447f369"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configura el tiempo de aceleración del desplazamiento.  <a href="class_f_i_p_c___axis.html#a1fb2fa457bafc8699f7569453447f369">Más...</a><br /></td></tr>
+<tr class="separator:a1fb2fa457bafc8699f7569453447f369"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4fb1c7ff239c34520e2e1a4f8ea5745"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_i_p_c___axis.html#aa4fb1c7ff239c34520e2e1a4f8ea5745">setAction</a> (uint8_t iAction=<a class="el" href="class_f_i_p_c___axis.html#a6345cf801a28eeee745d800f04c462b6aad24fd1e61b46ae22ab9d60c84d51086">FIPC_Axis::ACTION_NOTHING</a>, float iData=0.0)</td></tr>
+<tr class="memdesc:aa4fb1c7ff239c34520e2e1a4f8ea5745"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solicita una acción.  <a href="class_f_i_p_c___axis.html#aa4fb1c7ff239c34520e2e1a4f8ea5745">Más...</a><br /></td></tr>
+<tr class="separator:aa4fb1c7ff239c34520e2e1a4f8ea5745"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a424ad89733af795178f6ff5e24c1a5bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_i_p_c___axis.html#a424ad89733af795178f6ff5e24c1a5bc">exec</a> ()</td></tr>
+<tr class="memdesc:a424ad89733af795178f6ff5e24c1a5bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ejecuta el control de los motores.  <a href="class_f_i_p_c___axis.html#a424ad89733af795178f6ff5e24c1a5bc">Más...</a><br /></td></tr>
+<tr class="separator:a424ad89733af795178f6ff5e24c1a5bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75fe2b13107553d823e009f8065ba369"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_i_p_c___axis.html#a75fe2b13107553d823e009f8065ba369">getReport</a> ()</td></tr>
+<tr class="memdesc:a75fe2b13107553d823e009f8065ba369"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solicita un reporte general del objeto.  <a href="class_f_i_p_c___axis.html#a75fe2b13107553d823e009f8065ba369">Más...</a><br /></td></tr>
+<tr class="separator:a75fe2b13107553d823e009f8065ba369"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a10465595f6e3bbf5ca61eea1f50986"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_i_p_c___axis.html#a6a10465595f6e3bbf5ca61eea1f50986">getStatus</a> ()</td></tr>
+<tr class="memdesc:a6a10465595f6e3bbf5ca61eea1f50986"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solicita un reporte del estado del objeto.  <a href="class_f_i_p_c___axis.html#a6a10465595f6e3bbf5ca61eea1f50986">Más...</a><br /></td></tr>
+<tr class="separator:a6a10465595f6e3bbf5ca61eea1f50986"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af21ab0e939dbfcba7b2064d7f8b7be90"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_i_p_c___axis.html#af21ab0e939dbfcba7b2064d7f8b7be90">getSpeed</a> ()</td></tr>
+<tr class="memdesc:af21ab0e939dbfcba7b2064d7f8b7be90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solicita la velocidad configurada.  <a href="class_f_i_p_c___axis.html#af21ab0e939dbfcba7b2064d7f8b7be90">Más...</a><br /></td></tr>
+<tr class="separator:af21ab0e939dbfcba7b2064d7f8b7be90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a829d578b233ce7e47740e0cc07978a7f"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_i_p_c___axis.html#a829d578b233ce7e47740e0cc07978a7f">getAccelerationTime</a> ()</td></tr>
+<tr class="memdesc:a829d578b233ce7e47740e0cc07978a7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solicita el tiempo de aceleración configurado.  <a href="class_f_i_p_c___axis.html#a829d578b233ce7e47740e0cc07978a7f">Más...</a><br /></td></tr>
+<tr class="separator:a829d578b233ce7e47740e0cc07978a7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acab279b17a163e50384db0bcca1dd246"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_i_p_c___axis.html#acab279b17a163e50384db0bcca1dd246">getCurrentPosition</a> ()</td></tr>
+<tr class="memdesc:acab279b17a163e50384db0bcca1dd246"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solicita la posición actual en coordenadas absolutas.  <a href="class_f_i_p_c___axis.html#acab279b17a163e50384db0bcca1dd246">Más...</a><br /></td></tr>
+<tr class="separator:acab279b17a163e50384db0bcca1dd246"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab51784d66c901102659d6bb61fa3a7cd"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_i_p_c___axis.html#ab51784d66c901102659d6bb61fa3a7cd">isRunning</a> ()</td></tr>
+<tr class="memdesc:ab51784d66c901102659d6bb61fa3a7cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verifica si el eje se está moviendo.  <a href="class_f_i_p_c___axis.html#ab51784d66c901102659d6bb61fa3a7cd">Más...</a><br /></td></tr>
+<tr class="separator:ab51784d66c901102659d6bb61fa3a7cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-types"></a>
+Tipos privados</h2></td></tr>
+<tr class="memitem:afeafae81429ff4457dfbc30578e06db2"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_i_p_c___axis.html#afeafae81429ff4457dfbc30578e06db2">AxisStatus</a> { <br />
+&#160;&#160;<a class="el" href="class_f_i_p_c___axis.html#afeafae81429ff4457dfbc30578e06db2a8f81942ebf21b258e140eb51732ffef0">STATUS_DISABLE</a>, 
+<a class="el" href="class_f_i_p_c___axis.html#afeafae81429ff4457dfbc30578e06db2ad414ba7c78578d5b9d6e5ebaf3806a73">STATUS_NO_HOME</a>, 
+<a class="el" href="class_f_i_p_c___axis.html#afeafae81429ff4457dfbc30578e06db2a7597fcafb3b6d2d08ff93e9514772903">STATUS_HOMING</a>, 
+<a class="el" href="class_f_i_p_c___axis.html#afeafae81429ff4457dfbc30578e06db2ab7bc82dc8fbed2a9c5d71253b308c6bd">STATUS_READY</a>, 
+<br />
+&#160;&#160;<a class="el" href="class_f_i_p_c___axis.html#afeafae81429ff4457dfbc30578e06db2a03cc8fde36df743122f2f5dbb5457e34">STATUS_MOVING</a>
+<br />
+ }</td></tr>
+<tr class="memdesc:afeafae81429ff4457dfbc30578e06db2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Definicion de variable simbólica interna de estado del motor.  <a href="class_f_i_p_c___axis.html#afeafae81429ff4457dfbc30578e06db2">Más...</a><br /></td></tr>
+<tr class="separator:afeafae81429ff4457dfbc30578e06db2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1574a1724c3d241c21eacc5316a77fb"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_i_p_c___axis.html#ac1574a1724c3d241c21eacc5316a77fb">ExecAccelStepper</a> { <br />
+&#160;&#160;<a class="el" href="class_f_i_p_c___axis.html#ac1574a1724c3d241c21eacc5316a77fbabebf60992cb6111174b630ef37d0b993">EXEC_WAIT</a>, 
+<a class="el" href="class_f_i_p_c___axis.html#ac1574a1724c3d241c21eacc5316a77fba4ad60dfc2d5dfd496017955fc6c6cfbd">EXEC_STOP</a>, 
+<a class="el" href="class_f_i_p_c___axis.html#ac1574a1724c3d241c21eacc5316a77fba27a0dd6b53e48569bd597ed04e008602">EXEC_RUN</a>, 
+<a class="el" href="class_f_i_p_c___axis.html#ac1574a1724c3d241c21eacc5316a77fbafea99127a1da5bc4d3818a4b53121ab9">EXEC_HOMING</a>, 
+<br />
+&#160;&#160;<a class="el" href="class_f_i_p_c___axis.html#ac1574a1724c3d241c21eacc5316a77fbaadfc4da77182a8b59b9123dcbcd181af">EXEC_HOMING_STOP</a>, 
+<a class="el" href="class_f_i_p_c___axis.html#ac1574a1724c3d241c21eacc5316a77fba416ac52ae0f1d9d2843adcdeb5410f66">EXEC_ENABLE</a>, 
+<a class="el" href="class_f_i_p_c___axis.html#ac1574a1724c3d241c21eacc5316a77fbabe22a9c16d93a9f3e4e706a7f7d55f13">EXEC_DISABLE</a>
+<br />
+ }</td></tr>
+<tr class="memdesc:ac1574a1724c3d241c21eacc5316a77fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Definicion de variable simbólica interna de tipos de ejecución.  <a href="class_f_i_p_c___axis.html#ac1574a1724c3d241c21eacc5316a77fb">Más...</a><br /></td></tr>
+<tr class="separator:ac1574a1724c3d241c21eacc5316a77fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Métodos privados</h2></td></tr>
+<tr class="memitem:aed46a85043462e798f283c0314682e02"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_i_p_c___axis.html#aed46a85043462e798f283c0314682e02">invertDirection</a> ()</td></tr>
+<tr class="memdesc:aed46a85043462e798f283c0314682e02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invierte la dirección de desplazamiento.  <a href="class_f_i_p_c___axis.html#aed46a85043462e798f283c0314682e02">Más...</a><br /></td></tr>
+<tr class="separator:aed46a85043462e798f283c0314682e02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb58e1cc83d714458d6730dcbca06da1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_i_p_c___axis.html#acb58e1cc83d714458d6730dcbca06da1">configMoveAbsolute</a> (float iAbsolute)</td></tr>
+<tr class="memdesc:acb58e1cc83d714458d6730dcbca06da1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configura el destino en coordenadas absolutas.  <a href="class_f_i_p_c___axis.html#acb58e1cc83d714458d6730dcbca06da1">Más...</a><br /></td></tr>
+<tr class="separator:acb58e1cc83d714458d6730dcbca06da1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79d37141a196906068316ed96feb5805"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_i_p_c___axis.html#a79d37141a196906068316ed96feb5805">configMoveRelative</a> (float iRelative)</td></tr>
+<tr class="memdesc:a79d37141a196906068316ed96feb5805"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configura el destino en coordenadas relativas.  <a href="class_f_i_p_c___axis.html#a79d37141a196906068316ed96feb5805">Más...</a><br /></td></tr>
+<tr class="separator:a79d37141a196906068316ed96feb5805"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Atributos privados</h2></td></tr>
+<tr class="memitem:ab67f8acf582d2c16b82d132c16cc35df"><td class="memItemLeft" align="right" valign="top">AccelStepper *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_i_p_c___axis.html#ab67f8acf582d2c16b82d132c16cc35df">_Axis</a></td></tr>
+<tr class="separator:ab67f8acf582d2c16b82d132c16cc35df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a582f2106332ac8f6293bf2d503c5c770"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_f_i_p_c___homing.html">FIPC_Homing</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_i_p_c___axis.html#a582f2106332ac8f6293bf2d503c5c770">_Homing</a></td></tr>
+<tr class="separator:a582f2106332ac8f6293bf2d503c5c770"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bf826d3f4955cd628bcf154f6b90168"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_f_i_p_c___axis.html#afeafae81429ff4457dfbc30578e06db2">AxisStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_i_p_c___axis.html#a1bf826d3f4955cd628bcf154f6b90168">_axis_status</a> = <a class="el" href="class_f_i_p_c___axis.html#afeafae81429ff4457dfbc30578e06db2a8f81942ebf21b258e140eb51732ffef0">STATUS_DISABLE</a></td></tr>
+<tr class="separator:a1bf826d3f4955cd628bcf154f6b90168"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2afb80dc28f1b4d44c37a731bdeca2e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_f_i_p_c___axis.html#ac1574a1724c3d241c21eacc5316a77fb">ExecAccelStepper</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_i_p_c___axis.html#aa2afb80dc28f1b4d44c37a731bdeca2e">_newExec</a> = <a class="el" href="class_f_i_p_c___axis.html#ac1574a1724c3d241c21eacc5316a77fbabebf60992cb6111174b630ef37d0b993">EXEC_WAIT</a></td></tr>
+<tr class="separator:aa2afb80dc28f1b4d44c37a731bdeca2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac38e1bbb3c791ac40dacd4d56b56f541"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_f_i_p_c___axis.html#a34ccf730e248421ae09ed47f0c4d3457">MotorStage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_i_p_c___axis.html#ac38e1bbb3c791ac40dacd4d56b56f541">_type</a></td></tr>
+<tr class="separator:ac38e1bbb3c791ac40dacd4d56b56f541"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af660e0af7a093e5e0299e31da261d2bf"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_i_p_c___axis.html#af660e0af7a093e5e0299e31da261d2bf">_id</a></td></tr>
+<tr class="separator:af660e0af7a093e5e0299e31da261d2bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b6c3ee60835ac6880065599f3987baa"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_i_p_c___axis.html#a2b6c3ee60835ac6880065599f3987baa">_units</a></td></tr>
+<tr class="separator:a2b6c3ee60835ac6880065599f3987baa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79152d25861e2291d2d3177d0a8b0815"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_i_p_c___axis.html#a79152d25861e2291d2d3177d0a8b0815">_direction</a></td></tr>
+<tr class="separator:a79152d25861e2291d2d3177d0a8b0815"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a848348a255b40e1462f4f26dccb887d9"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_i_p_c___axis.html#a848348a255b40e1462f4f26dccb887d9">_speed</a></td></tr>
+<tr class="separator:a848348a255b40e1462f4f26dccb887d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab52d6df90c5e4d1214339d009f56ea3d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_i_p_c___axis.html#ab52d6df90c5e4d1214339d009f56ea3d">_accelTime</a></td></tr>
+<tr class="separator:ab52d6df90c5e4d1214339d009f56ea3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac5d8ee5ce07f3c858d9eb0879e9fa43"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_i_p_c___axis.html#aac5d8ee5ce07f3c858d9eb0879e9fa43">_switch_1</a></td></tr>
+<tr class="separator:aac5d8ee5ce07f3c858d9eb0879e9fa43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0a33fb765072d68a0c04c113616b266"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_i_p_c___axis.html#af0a33fb765072d68a0c04c113616b266">_switch_2</a></td></tr>
+<tr class="separator:af0a33fb765072d68a0c04c113616b266"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bb7b6f4b19baa96ce4a00ebe9b1cd01"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_i_p_c___axis.html#a5bb7b6f4b19baa96ce4a00ebe9b1cd01">_switch_ref</a></td></tr>
+<tr class="separator:a5bb7b6f4b19baa96ce4a00ebe9b1cd01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5be2b403ab00b263403e4111ea597172"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_i_p_c___axis.html#a5be2b403ab00b263403e4111ea597172">_factorToStep</a></td></tr>
+<tr class="separator:a5be2b403ab00b263403e4111ea597172"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5728c5c1b120ffc575f424046512379"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_i_p_c___axis.html#ad5728c5c1b120ffc575f424046512379">_minPosition</a></td></tr>
+<tr class="separator:ad5728c5c1b120ffc575f424046512379"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3d2143f91aaa6d05cc5fe3e1e8d5779"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_i_p_c___axis.html#af3d2143f91aaa6d05cc5fe3e1e8d5779">_maxPosition</a></td></tr>
+<tr class="separator:af3d2143f91aaa6d05cc5fe3e1e8d5779"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9af42e92c536aa134432745661547ac4"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_f_i_p_c___axis.html#a9af42e92c536aa134432745661547ac4">_veloMax</a></td></tr>
+<tr class="separator:a9af42e92c536aa134432745661547ac4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Clase que implementa el control de un eje. </p>
+<p>Permite ejecutar desplazamientos absolutos o relativos con aceleración en cada tipo de eje configurado (ver tipos de ejes permitidos <a class="el" href="class_f_i_p_c___axis.html#a34ccf730e248421ae09ed47f0c4d3457" title="Definicion de variable simbólica de tipos de ejes.">FIPC_Axis::MotorStage</a>). Además se comunica directamente con la librería <a href="http://www.airspayce.com/mikem/arduino/AccelStepper" target="_blank" rel="noopener noreferrer">AccelStepper</a> y contiene un objeto <a class="el" href="class_f_i_p_c___homing.html" title="Clase que implementa la búsqueda de la referencia cero.">FIPC_Homing</a> que implementa la búsqueda del cero.</p>
+<dl class="section user"><dt>Operación</dt><dd>Este módulo ofrece una interfaz que le permite al usuario solicitar acciones, mientras un proceso que se ejecuta en tiempo real actualiza el estado del motor. Una vez instanciado este objeto, antes de solicitar cualquier acción, se deberá configurar el tipo de eje. Adicionalmente, se implementan funciones para configurar la velocidad y aceleración de los desplazamientos, como así también una serie de funciones de consulta.</dd></dl>
+<dl class="section user"><dt>Acciones permitidas:</dt><dd><ul>
+<li><a class="el" href="class_f_i_p_c___axis.html#a6345cf801a28eeee745d800f04c462b6ab8a89592485afecae008b21f38f527ea">FIPC_Axis::ACTION_ENABLE</a> Habilita los movimientos de los motores, es decir, los energiza. </li>
+<li><a class="el" href="class_f_i_p_c___axis.html#a6345cf801a28eeee745d800f04c462b6a560dd7cd4d684830a8db208c78ebd4be">FIPC_Axis::ACTION_HOMING</a> Búsqueda de la posición cero del eje. </li>
+<li><a class="el" href="class_f_i_p_c___axis.html#a6345cf801a28eeee745d800f04c462b6ad3c7ce282f484022d7ac9e27dedcc785">FIPC_Axis::ACTION_MOVE_ABSOLUTE</a> Desplazamiento en coordenadas absolutas. </li>
+<li><a class="el" href="class_f_i_p_c___axis.html#a6345cf801a28eeee745d800f04c462b6a15e6dac6d49afaf7050629ba56f67f22">FIPC_Axis::ACTION_MOVE_RELATIVE</a> Desplazamiento en coordenadas relativas. </li>
+<li><a class="el" href="class_f_i_p_c___axis.html#a6345cf801a28eeee745d800f04c462b6a252d094350c2f1da88bb5b357bea6274">FIPC_Axis::ACTION_STOP</a> Detiene cualquier desplazamiento. </li>
+<li><a class="el" href="class_f_i_p_c___axis.html#a6345cf801a28eeee745d800f04c462b6ae0f1bdca08def117f0898235c495ee35">FIPC_Axis::ACTION_DISABLE</a> Deshabilita los movimientos de los motores, es decir, los desenergiza.</li>
+</ul>
+</dd></dl>
+<dl class="section user"><dt>Estados del eje:</dt><dd>La implementación se basa en una máquina de estados que describe el estado del eje. El valor se guarda en la variable _axis_status y puede ser consultada por el usuario con la función <a class="el" href="class_f_i_p_c___axis.html#a6a10465595f6e3bbf5ca61eea1f50986" title="Solicita un reporte del estado del objeto.">getStatus()</a>. Los estados posibles son: <ul>
+<li><a class="el" href="class_f_i_p_c___axis.html#afeafae81429ff4457dfbc30578e06db2a8f81942ebf21b258e140eb51732ffef0">FIPC_Axis::STATUS_DISABLE</a> Los ejes están deshabilitados y se pierde la referencia. </li>
+<li><a class="el" href="class_f_i_p_c___axis.html#afeafae81429ff4457dfbc30578e06db2ad414ba7c78578d5b9d6e5ebaf3806a73">FIPC_Axis::STATUS_NO_HOME</a> Estado al que llega luego de habilitarse el eje. En este estado solo se permite buscar el cero. </li>
+<li><a class="el" href="class_f_i_p_c___axis.html#afeafae81429ff4457dfbc30578e06db2a7597fcafb3b6d2d08ff93e9514772903">FIPC_Axis::STATUS_HOMING</a> El eje se encuentra desplazándose hacia la referencia. </li>
+<li><a class="el" href="class_f_i_p_c___axis.html#afeafae81429ff4457dfbc30578e06db2ab7bc82dc8fbed2a9c5d71253b308c6bd">FIPC_Axis::STATUS_READY</a> Una vez que el eje encontró la referencia o terminó un movimiento, el eje queda en espera por una acción. </li>
+<li><a class="el" href="class_f_i_p_c___axis.html#afeafae81429ff4457dfbc30578e06db2a03cc8fde36df743122f2f5dbb5457e34">FIPC_Axis::STATUS_MOVING</a> El eje se encuentra desplazándose.</li>
+</ul>
+</dd></dl>
+<dl class="section user"><dt>Tipos de ejes implementados</dt><dd>Este proyecto está basado en una plataforma de 6 ejes de la empresa optics-focus ( <a href="https://www.optics-focus.com/6axis-motorized-positioning-stage-p-661.html">https://www.optics-focus.com/6axis-motorized-positioning-stage-p-661.html</a>), sin embargo podría agregarse el tipo de eje que se desee. Los posibles ejes implementados en este proyecto son: <ul>
+<li><a class="el" href="class_f_i_p_c___axis.html#a34ccf730e248421ae09ed47f0c4d3457afca2e43180c287a3d1eadbd959649a47">FIPC_Axis::MOX_02_30</a> para más info <a href="https://www.optics-focus.com/miniature-motorized-linear-stage-p-569.html">https://www.optics-focus.com/miniature-motorized-linear-stage-p-569.html</a> </li>
+<li><a class="el" href="class_f_i_p_c___axis.html#a34ccf730e248421ae09ed47f0c4d3457a5cf724fc1129c8348e7a7c715da61eaf">FIPC_Axis::MOR_100_30</a> para más info <a href="https://www.optics-focus.com/motorized-rotation-stage-p-523.html">https://www.optics-focus.com/motorized-rotation-stage-p-523.html</a> </li>
+<li><a class="el" href="class_f_i_p_c___axis.html#a34ccf730e248421ae09ed47f0c4d3457aae3e44fcd521487bc460a1361337ccce">FIPC_Axis::MOG_65_10</a> para más info <a href="https://www.optics-focus.com/motorized-goniometer-stage-p-534.html">https://www.optics-focus.com/motorized-goniometer-stage-p-534.html</a> </li>
+<li><a class="el" href="class_f_i_p_c___axis.html#a34ccf730e248421ae09ed47f0c4d3457a80dad1dbdcd1a56b13a793c7ff39b6ab">FIPC_Axis::MOG_65_15</a> para más info <a href="https://www.optics-focus.com/motorized-goniometer-stage-p-535.html">https://www.optics-focus.com/motorized-goniometer-stage-p-535.html</a></li>
+</ul>
+</dd></dl>
+<dl class="section user"><dt>Advertencias</dt><dd>En cada tipo de eje se preconfigura los límites de posición máximos y mínimos, como así también la velocidad máxima basada en mediciones en el límite de generación de pulsos. La frecuencia máxima utilizada es 12 kHz. Si el usuario solicita una acción que no está permitida, será rechazada.</dd></dl>
+<p>Para el correcto funcionamiento el usuario debe garantizar que la función <a class="el" href="class_f_i_p_c___axis.html#a424ad89733af795178f6ff5e24c1a5bc" title="Ejecuta el control de los motores.">exec()</a> sea ejecutada con una frecuencia mayor a 12 kHz, mientras se está ejecutando un desplazamiento. </p>
+
+<p class="definition">Definición en la línea <a class="el" href="_f_i_p_c___axis_8h_source.html#l00081">81</a> del archivo <a class="el" href="_f_i_p_c___axis_8h_source.html">FIPC_Axis.h</a>.</p>
+</div><h2 class="groupheader">Documentación de las enumeraciones miembro de la clase</h2>
+<a id="a6345cf801a28eeee745d800f04c462b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6345cf801a28eeee745d800f04c462b6">&#9670;&nbsp;</a></span>AxisAction</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_f_i_p_c___axis.html#a6345cf801a28eeee745d800f04c462b6">FIPC_Axis::AxisAction</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicion de variable simbólica de acciones. </p>
+<p>Utilizar como parámetro cuando se utiliza <a class="el" href="class_f_i_p_c___axis.html#aa4fb1c7ff239c34520e2e1a4f8ea5745" title="Solicita una acción.">setAction()</a> </p>
+<table class="fieldtable">
+<tr><th colspan="2">Valores de enumeraciones</th></tr><tr><td class="fieldname"><a id="a6345cf801a28eeee745d800f04c462b6aad24fd1e61b46ae22ab9d60c84d51086"></a>ACTION_NOTHING&#160;</td><td class="fielddoc"><p>No hace nada. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a6345cf801a28eeee745d800f04c462b6a252d094350c2f1da88bb5b357bea6274"></a>ACTION_STOP&#160;</td><td class="fielddoc"><p>Detener un desplazamiento. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a6345cf801a28eeee745d800f04c462b6ab8a89592485afecae008b21f38f527ea"></a>ACTION_ENABLE&#160;</td><td class="fielddoc"><p>Habilitar o energizar. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a6345cf801a28eeee745d800f04c462b6ae0f1bdca08def117f0898235c495ee35"></a>ACTION_DISABLE&#160;</td><td class="fielddoc"><p>Deshabilitar o desenergizar. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a6345cf801a28eeee745d800f04c462b6a560dd7cd4d684830a8db208c78ebd4be"></a>ACTION_HOMING&#160;</td><td class="fielddoc"><p>Ejecuta la búsqueda del cero. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a6345cf801a28eeee745d800f04c462b6ad3c7ce282f484022d7ac9e27dedcc785"></a>ACTION_MOVE_ABSOLUTE&#160;</td><td class="fielddoc"><p>Deplazamiento en coordenadas absolutas. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a6345cf801a28eeee745d800f04c462b6a15e6dac6d49afaf7050629ba56f67f22"></a>ACTION_MOVE_RELATIVE&#160;</td><td class="fielddoc"><p>Deplazamiento en coordenadas relativas. </p>
+</td></tr>
+</table>
+
+<p class="definition">Definición en la línea <a class="el" href="_f_i_p_c___axis_8h_source.html#l00088">88</a> del archivo <a class="el" href="_f_i_p_c___axis_8h_source.html">FIPC_Axis.h</a>.</p>
+
+</div>
+</div>
+<a id="afeafae81429ff4457dfbc30578e06db2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afeafae81429ff4457dfbc30578e06db2">&#9670;&nbsp;</a></span>AxisStatus</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_f_i_p_c___axis.html#afeafae81429ff4457dfbc30578e06db2">FIPC_Axis::AxisStatus</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definicion de variable simbólica interna de estado del motor. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Valores de enumeraciones</th></tr><tr><td class="fieldname"><a id="afeafae81429ff4457dfbc30578e06db2a8f81942ebf21b258e140eb51732ffef0"></a>STATUS_DISABLE&#160;</td><td class="fielddoc"><p>Eje deshabilitado. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="afeafae81429ff4457dfbc30578e06db2ad414ba7c78578d5b9d6e5ebaf3806a73"></a>STATUS_NO_HOME&#160;</td><td class="fielddoc"><p>Eje habilitado y sin referencia de cero. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="afeafae81429ff4457dfbc30578e06db2a7597fcafb3b6d2d08ff93e9514772903"></a>STATUS_HOMING&#160;</td><td class="fielddoc"><p>Desplazándose en búsqueda de la referencia cero. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="afeafae81429ff4457dfbc30578e06db2ab7bc82dc8fbed2a9c5d71253b308c6bd"></a>STATUS_READY&#160;</td><td class="fielddoc"><p>Eje habilitado y en espera por un desplazamiento. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="afeafae81429ff4457dfbc30578e06db2a03cc8fde36df743122f2f5dbb5457e34"></a>STATUS_MOVING&#160;</td><td class="fielddoc"><p>Desplazándose. </p>
+</td></tr>
+</table>
+
+<p class="definition">Definición en la línea <a class="el" href="_f_i_p_c___axis_8h_source.html#l00219">219</a> del archivo <a class="el" href="_f_i_p_c___axis_8h_source.html">FIPC_Axis.h</a>.</p>
+
+</div>
+</div>
+<a id="ac1574a1724c3d241c21eacc5316a77fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1574a1724c3d241c21eacc5316a77fb">&#9670;&nbsp;</a></span>ExecAccelStepper</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_f_i_p_c___axis.html#ac1574a1724c3d241c21eacc5316a77fb">FIPC_Axis::ExecAccelStepper</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definicion de variable simbólica interna de tipos de ejecución. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Valores de enumeraciones</th></tr><tr><td class="fieldname"><a id="ac1574a1724c3d241c21eacc5316a77fbabebf60992cb6111174b630ef37d0b993"></a>EXEC_WAIT&#160;</td><td class="fielddoc"><p>En espera por una ejecución. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ac1574a1724c3d241c21eacc5316a77fba4ad60dfc2d5dfd496017955fc6c6cfbd"></a>EXEC_STOP&#160;</td><td class="fielddoc"><p>Debe ejecutar una parada. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ac1574a1724c3d241c21eacc5316a77fba27a0dd6b53e48569bd597ed04e008602"></a>EXEC_RUN&#160;</td><td class="fielddoc"><p>Debe ejecutar un desplazamiento. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ac1574a1724c3d241c21eacc5316a77fbafea99127a1da5bc4d3818a4b53121ab9"></a>EXEC_HOMING&#160;</td><td class="fielddoc"><p>Debe ejecutar la búsqueda de la referencia cero. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ac1574a1724c3d241c21eacc5316a77fbaadfc4da77182a8b59b9123dcbcd181af"></a>EXEC_HOMING_STOP&#160;</td><td class="fielddoc"><p>Debe ejecutar una parada de la búsqueda de la referencia cero. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ac1574a1724c3d241c21eacc5316a77fba416ac52ae0f1d9d2843adcdeb5410f66"></a>EXEC_ENABLE&#160;</td><td class="fielddoc"><p>Debe habilitar el eje. <br  />
+ </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ac1574a1724c3d241c21eacc5316a77fbabe22a9c16d93a9f3e4e706a7f7d55f13"></a>EXEC_DISABLE&#160;</td><td class="fielddoc"><p>Debe deshabilitar el eje. </p>
+</td></tr>
+</table>
+
+<p class="definition">Definición en la línea <a class="el" href="_f_i_p_c___axis_8h_source.html#l00227">227</a> del archivo <a class="el" href="_f_i_p_c___axis_8h_source.html">FIPC_Axis.h</a>.</p>
+
+</div>
+</div>
+<a id="a34ccf730e248421ae09ed47f0c4d3457"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34ccf730e248421ae09ed47f0c4d3457">&#9670;&nbsp;</a></span>MotorStage</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_f_i_p_c___axis.html#a34ccf730e248421ae09ed47f0c4d3457">FIPC_Axis::MotorStage</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicion de variable simbólica de tipos de ejes. </p>
+<p>Utilizar como parámetro cuando se utiliza <a class="el" href="class_f_i_p_c___axis.html#aa6227871165ede5989f07c1882818478" title="Establece el tipo de eje.">setMotorStage()</a> </p>
+<table class="fieldtable">
+<tr><th colspan="2">Valores de enumeraciones</th></tr><tr><td class="fieldname"><a id="a34ccf730e248421ae09ed47f0c4d3457afca2e43180c287a3d1eadbd959649a47"></a>MOX_02_30&#160;</td><td class="fielddoc"><p><a href="https://www.optics-focus.com/miniature-motorized-linear-stage-p-569.html">https://www.optics-focus.com/miniature-motorized-linear-stage-p-569.html</a> </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a34ccf730e248421ae09ed47f0c4d3457a5cf724fc1129c8348e7a7c715da61eaf"></a>MOR_100_30&#160;</td><td class="fielddoc"><p><a href="https://www.optics-focus.com/motorized-rotation-stage-p-523.html">https://www.optics-focus.com/motorized-rotation-stage-p-523.html</a> </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a34ccf730e248421ae09ed47f0c4d3457aae3e44fcd521487bc460a1361337ccce"></a>MOG_65_10&#160;</td><td class="fielddoc"><p><a href="https://www.optics-focus.com/motorized-goniometer-stage-p-534.html">https://www.optics-focus.com/motorized-goniometer-stage-p-534.html</a> </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a34ccf730e248421ae09ed47f0c4d3457a80dad1dbdcd1a56b13a793c7ff39b6ab"></a>MOG_65_15&#160;</td><td class="fielddoc"><p><a href="https://www.optics-focus.com/motorized-goniometer-stage-p-535.html">https://www.optics-focus.com/motorized-goniometer-stage-p-535.html</a> </p>
+</td></tr>
+</table>
+
+<p class="definition">Definición en la línea <a class="el" href="_f_i_p_c___axis_8h_source.html#l00101">101</a> del archivo <a class="el" href="_f_i_p_c___axis_8h_source.html">FIPC_Axis.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a id="a99cebbeae6461d5ae744993f5a074a76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99cebbeae6461d5ae744993f5a074a76">&#9670;&nbsp;</a></span>FIPC_Axis()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">FIPC_Axis::FIPC_Axis </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>set_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>pinSTEP</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>pinDIR</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>pinEN</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>switch_1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>switch_2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>switch_ref</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Constructor. </p>
+<p>Los parámetros necesarios corresponden a la configuración de hardware. </p><dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">set_id</td><td>Identificador del eje. </td></tr>
+    <tr><td class="paramname">pinSTEP</td><td>GPIO del pin de pulsos del Driver8825. </td></tr>
+    <tr><td class="paramname">pinDIR</td><td>GPIO del pin de dirección del Driver8825. </td></tr>
+    <tr><td class="paramname">pinEN</td><td>GPIO del pin de habilitación del Driver8825. </td></tr>
+    <tr><td class="paramname">switch_1</td><td>GPIO del pin del switch de positivo. </td></tr>
+    <tr><td class="paramname">switch_2</td><td>GPIO del pin del switch de negativo. </td></tr>
+    <tr><td class="paramname">switch_ref</td><td>GPIO del pin del switch de referencia. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_f_i_p_c___axis_8cpp_source.html#l00013">13</a> del archivo <a class="el" href="_f_i_p_c___axis_8cpp_source.html">FIPC_Axis.cpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a id="ae06288417c4d0ae1e2bccda34059f2e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae06288417c4d0ae1e2bccda34059f2e1">&#9670;&nbsp;</a></span>canMoveAbsolute()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool FIPC_Axis::canMoveAbsolute </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>iAbsolute</em> = <code>0.0</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Verifica si puede ejecutar un desplazamiento en coordenadas absolutas. </p>
+<p>Las unidades dependen del tipo de eje. Para ejes lineales se utiliza micrómetros, mientras que para ejes angulares se utiliza miligrados.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">iRelative</td><td>Destino en coordenadas absolutas deseado. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>true si el desplazamiento puede realizarse. </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_f_i_p_c___axis_8cpp_source.html#l00166">166</a> del archivo <a class="el" href="_f_i_p_c___axis_8cpp_source.html">FIPC_Axis.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a50642205eaa14cfa5b6a01336cbb88cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50642205eaa14cfa5b6a01336cbb88cd">&#9670;&nbsp;</a></span>canMoveRelative()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool FIPC_Axis::canMoveRelative </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>iRelative</em> = <code>0.0</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Verifica si puede ejecutar un desplazamiento en coordenadas relativas. </p>
+<p>Las unidades dependen del tipo de eje. Para ejes lineales se utiliza micrómetros, mientras que para ejes angulares se utiliza miligrados.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">iRelative</td><td>Destino en coordenadas relativas deseado. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>true si el desplazamiento puede realizarse. </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_f_i_p_c___axis_8cpp_source.html#l00161">161</a> del archivo <a class="el" href="_f_i_p_c___axis_8cpp_source.html">FIPC_Axis.cpp</a>.</p>
+
+</div>
+</div>
+<a id="acb58e1cc83d714458d6730dcbca06da1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb58e1cc83d714458d6730dcbca06da1">&#9670;&nbsp;</a></span>configMoveAbsolute()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool FIPC_Axis::configMoveAbsolute </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>iAbsolute</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Configura el destino en coordenadas absolutas. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">iAbsolute</td><td>Destino en coordenadas absolutas. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>true si la configuración del destino fue satisfactorio. </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_f_i_p_c___axis_8cpp_source.html#l00298">298</a> del archivo <a class="el" href="_f_i_p_c___axis_8cpp_source.html">FIPC_Axis.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a79d37141a196906068316ed96feb5805"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79d37141a196906068316ed96feb5805">&#9670;&nbsp;</a></span>configMoveRelative()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool FIPC_Axis::configMoveRelative </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>iRelative</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Configura el destino en coordenadas relativas. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">iAbsolute</td><td>Destino en coordenadas relativas. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>true si la configuración del destino fue satisfactorio. </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_f_i_p_c___axis_8cpp_source.html#l00293">293</a> del archivo <a class="el" href="_f_i_p_c___axis_8cpp_source.html">FIPC_Axis.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a424ad89733af795178f6ff5e24c1a5bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a424ad89733af795178f6ff5e24c1a5bc">&#9670;&nbsp;</a></span>exec()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FIPC_Axis::exec </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Ejecuta el control de los motores. </p>
+<p>Esta función deberá ser llamada recurrentemente en tiempo real. </p>
+
+<p class="definition">Definición en la línea <a class="el" href="_f_i_p_c___axis_8cpp_source.html#l00215">215</a> del archivo <a class="el" href="_f_i_p_c___axis_8cpp_source.html">FIPC_Axis.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a829d578b233ce7e47740e0cc07978a7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a829d578b233ce7e47740e0cc07978a7f">&#9670;&nbsp;</a></span>getAccelerationTime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String FIPC_Axis::getAccelerationTime </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Solicita el tiempo de aceleración configurado. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>Una cadena de caracteres con el tiempo de aceleración configurado. </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_f_i_p_c___axis_8cpp_source.html#l00199">199</a> del archivo <a class="el" href="_f_i_p_c___axis_8cpp_source.html">FIPC_Axis.cpp</a>.</p>
+
+</div>
+</div>
+<a id="acab279b17a163e50384db0bcca1dd246"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acab279b17a163e50384db0bcca1dd246">&#9670;&nbsp;</a></span>getCurrentPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String FIPC_Axis::getCurrentPosition </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Solicita la posición actual en coordenadas absolutas. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>Una cadena de caracteres la posición actual del eje. </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_f_i_p_c___axis_8cpp_source.html#l00204">204</a> del archivo <a class="el" href="_f_i_p_c___axis_8cpp_source.html">FIPC_Axis.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a75fe2b13107553d823e009f8065ba369"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75fe2b13107553d823e009f8065ba369">&#9670;&nbsp;</a></span>getReport()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String FIPC_Axis::getReport </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Solicita un reporte general del objeto. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>Una cadena de caracteres que describe el estado completo del objeto. </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_f_i_p_c___axis_8cpp_source.html#l00172">172</a> del archivo <a class="el" href="_f_i_p_c___axis_8cpp_source.html">FIPC_Axis.cpp</a>.</p>
+
+</div>
+</div>
+<a id="af21ab0e939dbfcba7b2064d7f8b7be90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af21ab0e939dbfcba7b2064d7f8b7be90">&#9670;&nbsp;</a></span>getSpeed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String FIPC_Axis::getSpeed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Solicita la velocidad configurada. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>Una cadena de caracteres con la velocidad configurada. </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_f_i_p_c___axis_8cpp_source.html#l00194">194</a> del archivo <a class="el" href="_f_i_p_c___axis_8cpp_source.html">FIPC_Axis.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a6a10465595f6e3bbf5ca61eea1f50986"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a10465595f6e3bbf5ca61eea1f50986">&#9670;&nbsp;</a></span>getStatus()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String FIPC_Axis::getStatus </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Solicita un reporte del estado del objeto. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>Una cadena de caracteres con el estado en que se encuentra el objeto. </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_f_i_p_c___axis_8cpp_source.html#l00181">181</a> del archivo <a class="el" href="_f_i_p_c___axis_8cpp_source.html">FIPC_Axis.cpp</a>.</p>
+
+</div>
+</div>
+<a id="aed46a85043462e798f283c0314682e02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed46a85043462e798f283c0314682e02">&#9670;&nbsp;</a></span>invertDirection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FIPC_Axis::invertDirection </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Invierte la dirección de desplazamiento. </p>
+
+<p class="definition">Definición en la línea <a class="el" href="_f_i_p_c___axis_8cpp_source.html#l00288">288</a> del archivo <a class="el" href="_f_i_p_c___axis_8cpp_source.html">FIPC_Axis.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ab51784d66c901102659d6bb61fa3a7cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab51784d66c901102659d6bb61fa3a7cd">&#9670;&nbsp;</a></span>isRunning()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String FIPC_Axis::isRunning </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Verifica si el eje se está moviendo. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>"1" si se está moviendo. </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_f_i_p_c___axis_8cpp_source.html#l00209">209</a> del archivo <a class="el" href="_f_i_p_c___axis_8cpp_source.html">FIPC_Axis.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a1fb2fa457bafc8699f7569453447f369"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1fb2fa457bafc8699f7569453447f369">&#9670;&nbsp;</a></span>setAccelerationTime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool FIPC_Axis::setAccelerationTime </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>iAccelTime</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Configura el tiempo de aceleración del desplazamiento. </p>
+<p>Las unidades del tiempo es en segundos.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">iAccelTime</td><td>Tiempo de aceleración. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>true si el tiempo de aceleración se configuró correctamente. </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_f_i_p_c___axis_8cpp_source.html#l00150">150</a> del archivo <a class="el" href="_f_i_p_c___axis_8cpp_source.html">FIPC_Axis.cpp</a>.</p>
+
+</div>
+</div>
+<a id="aa4fb1c7ff239c34520e2e1a4f8ea5745"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4fb1c7ff239c34520e2e1a4f8ea5745">&#9670;&nbsp;</a></span>setAction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool FIPC_Axis::setAction </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>iAction</em> = <code><a class="el" href="class_f_i_p_c___axis.html#a6345cf801a28eeee745d800f04c462b6aad24fd1e61b46ae22ab9d60c84d51086">FIPC_Axis::ACTION_NOTHING</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>iData</em> = <code>0.0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Solicita una acción. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">iAction</td><td>Tipo de acción solicitada. </td></tr>
+    <tr><td class="paramname">iData</td><td>Parámetro adicional de acciónm por ejemplo desplazamiento. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>false si no se realizará ninguna acción. </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_f_i_p_c___axis_8cpp_source.html#l00094">94</a> del archivo <a class="el" href="_f_i_p_c___axis_8cpp_source.html">FIPC_Axis.cpp</a>.</p>
+
+</div>
+</div>
+<a id="aa6227871165ede5989f07c1882818478"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6227871165ede5989f07c1882818478">&#9670;&nbsp;</a></span>setMotorStage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FIPC_Axis::setMotorStage </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_f_i_p_c___axis.html#a34ccf730e248421ae09ed47f0c4d3457">MotorStage</a>&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Establece el tipo de eje. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">type</td><td>Variable simbólica de tipo de eje. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_f_i_p_c___axis_8cpp_source.html#l00040">40</a> del archivo <a class="el" href="_f_i_p_c___axis_8cpp_source.html">FIPC_Axis.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a57fed8f8eac494b02f0a6367c0dd48fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57fed8f8eac494b02f0a6367c0dd48fb">&#9670;&nbsp;</a></span>setSpeed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool FIPC_Axis::setSpeed </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>iSpeed</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Configura la velocidad de desplazamiento. </p>
+<p>Las unidades dependen del tipo de eje. Para ejes lineales se utiliza micrómetros por segundo, mientras que para ejes angulares se utiliza miligrados por segundo.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">iSpeed</td><td>La velocidad deseada. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>true si la velocidad se configuró correctamente. </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_f_i_p_c___axis_8cpp_source.html#l00140">140</a> del archivo <a class="el" href="_f_i_p_c___axis_8cpp_source.html">FIPC_Axis.cpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentación de los datos miembro</h2>
+<a id="ab52d6df90c5e4d1214339d009f56ea3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab52d6df90c5e4d1214339d009f56ea3d">&#9670;&nbsp;</a></span>_accelTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float FIPC_Axis::_accelTime</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Tiempo de aceleración configurado. </p>
+
+<p class="definition">Definición en la línea <a class="el" href="_f_i_p_c___axis_8h_source.html#l00254">254</a> del archivo <a class="el" href="_f_i_p_c___axis_8h_source.html">FIPC_Axis.h</a>.</p>
+
+</div>
+</div>
+<a id="ab67f8acf582d2c16b82d132c16cc35df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab67f8acf582d2c16b82d132c16cc35df">&#9670;&nbsp;</a></span>_Axis</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">AccelStepper* FIPC_Axis::_Axis</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Puntero al driver del motor paso a paso. </p>
+
+<p class="definition">Definición en la línea <a class="el" href="_f_i_p_c___axis_8h_source.html#l00236">236</a> del archivo <a class="el" href="_f_i_p_c___axis_8h_source.html">FIPC_Axis.h</a>.</p>
+
+</div>
+</div>
+<a id="a1bf826d3f4955cd628bcf154f6b90168"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1bf826d3f4955cd628bcf154f6b90168">&#9670;&nbsp;</a></span>_axis_status</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_f_i_p_c___axis.html#afeafae81429ff4457dfbc30578e06db2">AxisStatus</a> FIPC_Axis::_axis_status = <a class="el" href="class_f_i_p_c___axis.html#afeafae81429ff4457dfbc30578e06db2a8f81942ebf21b258e140eb51732ffef0">STATUS_DISABLE</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Almacena el estado del eje. </p>
+
+<p class="definition">Definición en la línea <a class="el" href="_f_i_p_c___axis_8h_source.html#l00240">240</a> del archivo <a class="el" href="_f_i_p_c___axis_8h_source.html">FIPC_Axis.h</a>.</p>
+
+</div>
+</div>
+<a id="a79152d25861e2291d2d3177d0a8b0815"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79152d25861e2291d2d3177d0a8b0815">&#9670;&nbsp;</a></span>_direction</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool FIPC_Axis::_direction</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Sentido de giro. </p>
+
+<p class="definition">Definición en la línea <a class="el" href="_f_i_p_c___axis_8h_source.html#l00250">250</a> del archivo <a class="el" href="_f_i_p_c___axis_8h_source.html">FIPC_Axis.h</a>.</p>
+
+</div>
+</div>
+<a id="a5be2b403ab00b263403e4111ea597172"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5be2b403ab00b263403e4111ea597172">&#9670;&nbsp;</a></span>_factorToStep</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float FIPC_Axis::_factorToStep</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Factor de conversión en [step/unidad]. </p>
+
+<p class="definition">Definición en la línea <a class="el" href="_f_i_p_c___axis_8h_source.html#l00262">262</a> del archivo <a class="el" href="_f_i_p_c___axis_8h_source.html">FIPC_Axis.h</a>.</p>
+
+</div>
+</div>
+<a id="a582f2106332ac8f6293bf2d503c5c770"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a582f2106332ac8f6293bf2d503c5c770">&#9670;&nbsp;</a></span>_Homing</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_f_i_p_c___homing.html">FIPC_Homing</a>* FIPC_Axis::_Homing</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Puntero al objeto encargado de realizar la búsqueda de la referencia cero. </p>
+
+<p class="definition">Definición en la línea <a class="el" href="_f_i_p_c___axis_8h_source.html#l00238">238</a> del archivo <a class="el" href="_f_i_p_c___axis_8h_source.html">FIPC_Axis.h</a>.</p>
+
+</div>
+</div>
+<a id="af660e0af7a093e5e0299e31da261d2bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af660e0af7a093e5e0299e31da261d2bf">&#9670;&nbsp;</a></span>_id</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t FIPC_Axis::_id</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Identificador. </p>
+
+<p class="definition">Definición en la línea <a class="el" href="_f_i_p_c___axis_8h_source.html#l00246">246</a> del archivo <a class="el" href="_f_i_p_c___axis_8h_source.html">FIPC_Axis.h</a>.</p>
+
+</div>
+</div>
+<a id="af3d2143f91aaa6d05cc5fe3e1e8d5779"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3d2143f91aaa6d05cc5fe3e1e8d5779">&#9670;&nbsp;</a></span>_maxPosition</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float FIPC_Axis::_maxPosition</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Posicion máxima absoluta. </p>
+
+<p class="definition">Definición en la línea <a class="el" href="_f_i_p_c___axis_8h_source.html#l00266">266</a> del archivo <a class="el" href="_f_i_p_c___axis_8h_source.html">FIPC_Axis.h</a>.</p>
+
+</div>
+</div>
+<a id="ad5728c5c1b120ffc575f424046512379"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5728c5c1b120ffc575f424046512379">&#9670;&nbsp;</a></span>_minPosition</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float FIPC_Axis::_minPosition</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Posicion mínima absoluta. </p>
+
+<p class="definition">Definición en la línea <a class="el" href="_f_i_p_c___axis_8h_source.html#l00264">264</a> del archivo <a class="el" href="_f_i_p_c___axis_8h_source.html">FIPC_Axis.h</a>.</p>
+
+</div>
+</div>
+<a id="aa2afb80dc28f1b4d44c37a731bdeca2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2afb80dc28f1b4d44c37a731bdeca2e">&#9670;&nbsp;</a></span>_newExec</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_f_i_p_c___axis.html#ac1574a1724c3d241c21eacc5316a77fb">ExecAccelStepper</a> FIPC_Axis::_newExec = <a class="el" href="class_f_i_p_c___axis.html#ac1574a1724c3d241c21eacc5316a77fbabebf60992cb6111174b630ef37d0b993">EXEC_WAIT</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Almacena el tipo de ejecución. </p>
+
+<p class="definition">Definición en la línea <a class="el" href="_f_i_p_c___axis_8h_source.html#l00242">242</a> del archivo <a class="el" href="_f_i_p_c___axis_8h_source.html">FIPC_Axis.h</a>.</p>
+
+</div>
+</div>
+<a id="a848348a255b40e1462f4f26dccb887d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a848348a255b40e1462f4f26dccb887d9">&#9670;&nbsp;</a></span>_speed</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float FIPC_Axis::_speed</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Velocidad configurada. </p>
+
+<p class="definition">Definición en la línea <a class="el" href="_f_i_p_c___axis_8h_source.html#l00252">252</a> del archivo <a class="el" href="_f_i_p_c___axis_8h_source.html">FIPC_Axis.h</a>.</p>
+
+</div>
+</div>
+<a id="aac5d8ee5ce07f3c858d9eb0879e9fa43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac5d8ee5ce07f3c858d9eb0879e9fa43">&#9670;&nbsp;</a></span>_switch_1</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t FIPC_Axis::_switch_1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>GPIO del switch de límite positivo. </p>
+
+<p class="definition">Definición en la línea <a class="el" href="_f_i_p_c___axis_8h_source.html#l00256">256</a> del archivo <a class="el" href="_f_i_p_c___axis_8h_source.html">FIPC_Axis.h</a>.</p>
+
+</div>
+</div>
+<a id="af0a33fb765072d68a0c04c113616b266"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0a33fb765072d68a0c04c113616b266">&#9670;&nbsp;</a></span>_switch_2</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t FIPC_Axis::_switch_2</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>GPIO del switch de límite negativo. </p>
+
+<p class="definition">Definición en la línea <a class="el" href="_f_i_p_c___axis_8h_source.html#l00258">258</a> del archivo <a class="el" href="_f_i_p_c___axis_8h_source.html">FIPC_Axis.h</a>.</p>
+
+</div>
+</div>
+<a id="a5bb7b6f4b19baa96ce4a00ebe9b1cd01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5bb7b6f4b19baa96ce4a00ebe9b1cd01">&#9670;&nbsp;</a></span>_switch_ref</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t FIPC_Axis::_switch_ref</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>GPIO del switch de referencia. </p>
+
+<p class="definition">Definición en la línea <a class="el" href="_f_i_p_c___axis_8h_source.html#l00260">260</a> del archivo <a class="el" href="_f_i_p_c___axis_8h_source.html">FIPC_Axis.h</a>.</p>
+
+</div>
+</div>
+<a id="ac38e1bbb3c791ac40dacd4d56b56f541"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac38e1bbb3c791ac40dacd4d56b56f541">&#9670;&nbsp;</a></span>_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_f_i_p_c___axis.html#a34ccf730e248421ae09ed47f0c4d3457">MotorStage</a> FIPC_Axis::_type</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Almacena el tipo de eje configurado. </p>
+
+<p class="definition">Definición en la línea <a class="el" href="_f_i_p_c___axis_8h_source.html#l00244">244</a> del archivo <a class="el" href="_f_i_p_c___axis_8h_source.html">FIPC_Axis.h</a>.</p>
+
+</div>
+</div>
+<a id="a2b6c3ee60835ac6880065599f3987baa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b6c3ee60835ac6880065599f3987baa">&#9670;&nbsp;</a></span>_units</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String FIPC_Axis::_units</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Tipo de unidad configurada. </p>
+
+<p class="definition">Definición en la línea <a class="el" href="_f_i_p_c___axis_8h_source.html#l00248">248</a> del archivo <a class="el" href="_f_i_p_c___axis_8h_source.html">FIPC_Axis.h</a>.</p>
+
+</div>
+</div>
+<a id="a9af42e92c536aa134432745661547ac4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9af42e92c536aa134432745661547ac4">&#9670;&nbsp;</a></span>_veloMax</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float FIPC_Axis::_veloMax</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Velocidad máxima permitida. </p>
+
+<p class="definition">Definición en la línea <a class="el" href="_f_i_p_c___axis_8h_source.html#l00268">268</a> del archivo <a class="el" href="_f_i_p_c___axis_8h_source.html">FIPC_Axis.h</a>.</p>
+
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir de los siguientes ficheros:<ul>
+<li><a class="el" href="_f_i_p_c___axis_8h_source.html">FIPC_Axis.h</a></li>
+<li><a class="el" href="_f_i_p_c___axis_8cpp_source.html">FIPC_Axis.cpp</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="class_f_i_p_c___axis.html">FIPC_Axis</a></li>
+    <li class="footer">Generado por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
+  </ul>
+</div>
+</body>
+</html>
